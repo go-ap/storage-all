@@ -67,6 +67,13 @@ func WithCache(enabled bool) InitFn {
 	}
 }
 
+func UseIndex(enabled bool) InitFn {
+	return func(o *options) error {
+		o.UseIndex = enabled
+		return nil
+	}
+}
+
 func WithLogger(l lw.Logger) InitFn {
 	return func(o *options) error {
 		o.Logger = l
@@ -163,6 +170,7 @@ func getFsConfig(opt options) (fs.Config, error) {
 		UseIndex:    opt.UseIndex,
 	}, nil
 }
+
 func getFsStorage(opt options) (FullStorage, error) {
 	conf, err := getFsConfig(opt)
 	if err != nil {
