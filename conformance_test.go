@@ -11,7 +11,11 @@ import (
 
 func initStorage(t *testing.T) conformance.ActivityPubStorage {
 	l := lw.Dev(lw.SetOutput(t.Output()))
-	storage, err := New(WithPath(t.TempDir()), WithLogger(l))
+	initFns := []InitFn{WithPath(t.TempDir()), WithLogger(l)}
+	if err := Bootstrap(initFns...); err != nil {
+		t.Fatalf("unable to bootstrap storage: %s", err)
+	}
+	storage, err := New(initFns...)
 	if err != nil {
 		t.Fatalf("unable to initialize storage: %s", err)
 	}
