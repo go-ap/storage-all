@@ -88,20 +88,27 @@ func initConfig(initFns ...InitFn) (options, error) {
 	return opt, nil
 }
 
-func getBadgerStorage(opt options) (FullStorage, error) {
+func getBadgerConfig(opt options) (badger.Config, error) {
 	opt.Storage = Badger
 	path, err := opt.BaseStoragePath()
 	if err != nil {
-		return nil, err
+		return badger.Config{}, err
 	}
 	l := opt.Logger
 	if l != nil {
 		l = l.WithContext(lw.Ctx{"path": path, "storage": opt.Storage})
 	}
-	conf := badger.Config{
+	return badger.Config{
 		Path:  path,
 		LogFn: l.Debugf,
 		ErrFn: l.Warnf,
+	}, nil
+}
+
+func getBadgerStorage(opt options) (FullStorage, error) {
+	conf, err := getBadgerConfig(opt)
+	if err != nil {
+		return nil, err
 	}
 	db, err := badger.New(conf)
 	if err != nil {
@@ -110,66 +117,87 @@ func getBadgerStorage(opt options) (FullStorage, error) {
 	return db, nil
 }
 
-func getBoltStorage(opt options) (FullStorage, error) {
+func getBoltConfig(opt options) (boltdb.Config, error) {
 	opt.Storage = BoltDB
 	path, err := opt.BaseStoragePath()
 	if err != nil {
-		return nil, err
+		return boltdb.Config{}, err
 	}
 	l := opt.Logger
 	if l != nil {
 		l = l.WithContext(lw.Ctx{"path": path, "storage": opt.Storage})
 	}
-	db, err := boltdb.New(boltdb.Config{
+	return boltdb.Config{
 		Path:  path,
 		LogFn: l.Debugf,
 		ErrFn: l.Warnf,
-	})
+	}, nil
+}
+
+func getBoltStorage(opt options) (FullStorage, error) {
+	conf, err := getBoltConfig(opt)
+	if err != nil {
+		return nil, err
+	}
+	db, err := boltdb.New(conf)
 	if err != nil {
 		return nil, err
 	}
 	return db, nil
 }
 
-func getFsStorage(opt options) (FullStorage, error) {
+func getFsConfig(opt options) (fs.Config, error) {
 	opt.Storage = FS
 	path, err := opt.BaseStoragePath()
 	if err != nil {
-		return nil, err
+		return fs.Config{}, err
 	}
 	l := opt.Logger
 	if l != nil {
 		l = l.WithContext(lw.Ctx{"path": path, "storage": opt.Storage})
 	}
-	db, err := fs.New(fs.Config{
+	return fs.Config{
 		Path:        path,
 		CacheEnable: opt.StorageCache,
 		Logger:      l,
 		UseIndex:    opt.UseIndex,
-	})
+	}, nil
+}
+func getFsStorage(opt options) (FullStorage, error) {
+	conf, err := getFsConfig(opt)
+	if err != nil {
+		return nil, err
+	}
+	db, err := fs.New(conf)
 	if err != nil {
 		return nil, err
 	}
 	return db, nil
 }
 
-func getSqliteStorage(opt options) (FullStorage, error) {
+func getSqliteConfig(opt options) (sqlite.Config, error) {
 	opt.Storage = Sqlite
 	path, err := opt.BaseStoragePath()
 	if err != nil {
-		return nil, err
+		return sqlite.Config{}, err
 	}
 	l := opt.Logger
 	if l != nil {
 		l = l.WithContext(lw.Ctx{"path": path, "storage": opt.Storage})
 	}
-	db, err := sqlite.New(sqlite.Config{
+	return sqlite.Config{
 		Path:        path,
 		CacheEnable: opt.StorageCache,
 		LogFn:       l.Debugf,
 		ErrFn:       l.Warnf,
-	})
-
+	}, nil
+}
+func getSqliteStorage(opt options) (FullStorage, error) {
+	conf, err := getSqliteConfig(opt)
+	if err != nil {
+		return nil, err
+	}
+	db, err := sqlite.New(conf)
 	if err != nil {
 		return nil, errors.Annotatef(err, "unable to connect to sqlite storage")
 	}
