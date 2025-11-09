@@ -1,0 +1,30 @@
+image: alpine/edge
+packages:
+  - go
+sources:
+  - https://git.sr.ht/~mariusor/storage-all
+environment:
+  GO111MODULE: 'on'
+tasks:
+  - tests: |
+      cd storage-all
+      make test
+  - coverage: |
+      set -a +x
+      cd storage-all
+      make coverage
+  - conformance-suite: |
+      cd storage-all
+      go test -tags conformance -count=1 -json . | go run github.com/gotesttools/gotestfmt/v2/cmd/gotestfmt -showteststatus
+  - conformance-suite-fs: |
+      cd storage-all
+      go test -tags 'conformance storage_fs' -count=1 -json . | go run github.com/gotesttools/gotestfmt/v2/cmd/gotestfmt -showteststatus
+  - conformance-suite-sqlite: |
+      cd storage-all
+      go test -tags 'conformance storage_sqlite' -count=1 -json . | go run github.com/gotesttools/gotestfmt/v2/cmd/gotestfmt -showteststatus
+  - conformance-suite-boltdb: |
+      cd storage-all
+      go test -tags 'conformance storage_boltdb' -count=1 -json . | go run github.com/gotesttools/gotestfmt/v2/cmd/gotestfmt -showteststatus
+  - conformance-suite-badger: |
+      cd storage-all
+      go test -tags 'conformance storage_badger' -count=1 -json . | go run github.com/gotesttools/gotestfmt/v2/cmd/gotestfmt -showteststatus

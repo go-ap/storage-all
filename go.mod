@@ -9,6 +9,7 @@ require (
 	github.com/go-ap/processing v0.0.0-20251107183955-5157bcd24a77
 	github.com/go-ap/storage-badger v0.0.0-20251107184448-c82b82ed5b46
 	github.com/go-ap/storage-boltdb v0.0.0-20251107184346-dcd98f6008a8
+	github.com/go-ap/storage-conformance-suite v0.0.0-20251107175308-1f25da14ce88
 	github.com/go-ap/storage-fs v0.0.0-20251107184052-8f100554bbb5
 	github.com/go-ap/storage-sqlite v0.0.0-20251107184234-cfa09baa0850
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
@@ -34,7 +35,9 @@ require (
 	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/google/flatbuffers v25.9.23+incompatible // indirect
+	github.com/google/go-cmp v0.7.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
+	github.com/gotesttools/gotestfmt/v2 v2.5.0 // indirect
 	github.com/jdkato/prose v1.2.1 // indirect
 	github.com/klauspost/compress v1.18.1 // indirect
 	github.com/mariusor/qstring v0.0.0-20200204164351-5a99d46de39d // indirect
@@ -67,3 +70,5 @@ require (
 	modernc.org/memory v1.11.0 // indirect
 	modernc.org/sqlite v1.40.0 // indirect
 )
+
+tool github.com/gotesttools/gotestfmt/v2/cmd/gotestfmt
