@@ -2,7 +2,10 @@
 
 package storage
 
-import storage "github.com/go-ap/storage-boltdb"
+import (
+	"github.com/go-ap/errors"
+	storage "github.com/go-ap/storage-boltdb"
+)
 
 const Default = BoltDB
 
@@ -11,6 +14,9 @@ func New(initFns ...InitFn) (FullStorage, error) {
 	if err != nil {
 		return nil, err
 	}
+	if opt.Storage != Default {
+		return nil, errors.NotImplementedf("Invalid storage type %s expected %s", opt.Storage, Default)
+	}
 	return getBoltStorage(opt)
 }
 
@@ -18,6 +24,9 @@ func Clean(initFns ...InitFn) error {
 	opt, err := initConfig(initFns...)
 	if err != nil {
 		return err
+	}
+	if opt.Storage != Default {
+		return errors.Newf("invalid storage type %s, expected %s", opt.Storage, Default)
 	}
 	conf, err := getBoltConfig(opt)
 	if err != nil {
@@ -30,6 +39,9 @@ func Bootstrap(initFns ...InitFn) error {
 	opt, err := initConfig(initFns...)
 	if err != nil {
 		return err
+	}
+	if opt.Storage != Default {
+		return errors.Newf("invalid storage type %s, expected %s", opt.Storage, Default)
 	}
 	conf, err := getBoltConfig(opt)
 	if err != nil {
