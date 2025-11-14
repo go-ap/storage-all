@@ -7,11 +7,11 @@ require (
 	github.com/go-ap/activitypub v0.0.0-20251028130710-8bc6217f6c8d
 	github.com/go-ap/errors v0.0.0-20250905102357-4480b47a00c4
 	github.com/go-ap/filters v0.0.0-20251107171832-f29304e3da0b
-	github.com/go-ap/storage-badger v0.0.0-20251107184448-c82b82ed5b46
-	github.com/go-ap/storage-boltdb v0.0.0-20251107184346-dcd98f6008a8
+	github.com/go-ap/storage-badger v0.0.0-20251114150409-a8ad5be8c2dd
+	github.com/go-ap/storage-boltdb v0.0.0-20251114145348-2b94f13171c0
 	github.com/go-ap/storage-conformance-suite v0.0.0-20251107175308-1f25da14ce88
 	github.com/go-ap/storage-fs v0.0.0-20251107184052-8f100554bbb5
-	github.com/go-ap/storage-sqlite v0.0.0-20251107184234-cfa09baa0850
+	github.com/go-ap/storage-sqlite v0.0.0-20251114152003-026fb6a610fa
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 )
 
@@ -53,7 +53,7 @@ require (
 	go.opentelemetry.io/otel/metric v1.38.0 // indirect
 	go.opentelemetry.io/otel/trace v1.38.0 // indirect
 	golang.org/x/crypto v0.44.0 // indirect
-	golang.org/x/exp v0.0.0-20251023183803-a4bb9ffd2546 // indirect
+	golang.org/x/exp v0.0.0-20251113190631-e25ba8c21ef6 // indirect
 	golang.org/x/net v0.47.0 // indirect
 	golang.org/x/sys v0.38.0 // indirect
 	golang.org/x/text v0.31.0 // indirect
