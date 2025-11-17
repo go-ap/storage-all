@@ -6,12 +6,12 @@ require (
 	git.sr.ht/~mariusor/lw v0.0.0-20250325163623-1639f3fb0e0d
 	github.com/go-ap/activitypub v0.0.0-20251028130710-8bc6217f6c8d
 	github.com/go-ap/errors v0.0.0-20250905102357-4480b47a00c4
-	github.com/go-ap/filters v0.0.0-20251107171832-f29304e3da0b
-	github.com/go-ap/storage-badger v0.0.0-20251114150409-a8ad5be8c2dd
-	github.com/go-ap/storage-boltdb v0.0.0-20251114145348-2b94f13171c0
+	github.com/go-ap/filters v0.0.0-20251117144141-b3e7ce46ead4
+	github.com/go-ap/storage-badger v0.0.0-20251117151537-2c058452f34e
+	github.com/go-ap/storage-boltdb v0.0.0-20251117151840-87da54411720
 	github.com/go-ap/storage-conformance-suite v0.0.0-20251107175308-1f25da14ce88
-	github.com/go-ap/storage-fs v0.0.0-20251107184052-8f100554bbb5
-	github.com/go-ap/storage-sqlite v0.0.0-20251114152003-026fb6a610fa
+	github.com/go-ap/storage-fs v0.0.0-20251117151757-39a4597ad3a1
+	github.com/go-ap/storage-sqlite v0.0.0-20251117151456-7c3a94963226
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 )
 
@@ -19,7 +19,7 @@ require (
 	git.sr.ht/~mariusor/go-xsd-duration v0.0.0-20220703122237-02e73435a078 // indirect
 	git.sr.ht/~mariusor/mask v0.0.0-20250114195353-98705a6977b7 // indirect
 	github.com/RoaringBitmap/roaring v1.9.4 // indirect
-	github.com/bits-and-blooms/bitset v1.24.3 // indirect
+	github.com/bits-and-blooms/bitset v1.24.4 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/dgraph-io/badger/v4 v4.8.0 // indirect
 	github.com/dgraph-io/ristretto/v2 v2.3.0 // indirect
@@ -59,7 +59,7 @@ require (
 	golang.org/x/text v0.31.0 // indirect
 	google.golang.org/protobuf v1.36.10 // indirect
 	gopkg.in/neurosnap/sentences.v1 v1.0.7 // indirect
-	modernc.org/libc v1.66.10 // indirect
+	modernc.org/libc v1.67.0 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.11.0 // indirect
 	modernc.org/sqlite v1.40.0 // indirect
