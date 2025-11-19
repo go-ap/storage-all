@@ -4,14 +4,14 @@ go 1.25
 
 require (
 	git.sr.ht/~mariusor/lw v0.0.0-20250325163623-1639f3fb0e0d
-	github.com/go-ap/activitypub v0.0.0-20251028130710-8bc6217f6c8d
+	github.com/go-ap/activitypub v0.0.0-20251119152743-e014e45d622c
 	github.com/go-ap/errors v0.0.0-20250905102357-4480b47a00c4
-	github.com/go-ap/filters v0.0.0-20251117144141-b3e7ce46ead4
-	github.com/go-ap/storage-badger v0.0.0-20251117151537-2c058452f34e
-	github.com/go-ap/storage-boltdb v0.0.0-20251117151840-87da54411720
+	github.com/go-ap/filters v0.0.0-20251119155300-b00543b21bd7
+	github.com/go-ap/storage-badger v0.0.0-20251119155650-49de49970d9d
+	github.com/go-ap/storage-boltdb v0.0.0-20251119155634-5ad93d169484
 	github.com/go-ap/storage-conformance-suite v0.0.0-20251107175308-1f25da14ce88
-	github.com/go-ap/storage-fs v0.0.0-20251117151757-39a4597ad3a1
-	github.com/go-ap/storage-sqlite v0.0.0-20251117151456-7c3a94963226
+	github.com/go-ap/storage-fs v0.0.0-20251119155513-0c90202af1d3
+	github.com/go-ap/storage-sqlite v0.0.0-20251119155555-a4a980776cc9
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 )
 
@@ -24,7 +24,7 @@ require (
 	github.com/dgraph-io/badger/v4 v4.8.0 // indirect
 	github.com/dgraph-io/ristretto/v2 v2.3.0 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
-	github.com/go-ap/cache v0.0.0-20251028142135-e067d18ce6a1 // indirect
+	github.com/go-ap/cache v0.0.0-20251119155220-290a227710a9 // indirect
 	github.com/go-ap/jsonld v0.0.0-20250905102310-8480b0fe24d9 // indirect
 	github.com/go-chi/chi/v5 v5.2.3 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
@@ -62,7 +62,7 @@ require (
 	modernc.org/libc v1.67.0 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.11.0 // indirect
-	modernc.org/sqlite v1.40.0 // indirect
+	modernc.org/sqlite v1.40.1 // indirect
 )
 
 tool github.com/gotesttools/gotestfmt/v2/cmd/gotestfmt
