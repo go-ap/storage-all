@@ -4,14 +4,14 @@ go 1.25
 
 require (
 	git.sr.ht/~mariusor/lw v0.0.0-20250325163623-1639f3fb0e0d
-	github.com/go-ap/activitypub v0.0.0-20251119152743-e014e45d622c
+	github.com/go-ap/activitypub v0.0.0-20251119200117-f535d00430a0
 	github.com/go-ap/errors v0.0.0-20250905102357-4480b47a00c4
-	github.com/go-ap/filters v0.0.0-20251119155300-b00543b21bd7
-	github.com/go-ap/storage-badger v0.0.0-20251119155650-49de49970d9d
-	github.com/go-ap/storage-boltdb v0.0.0-20251119155634-5ad93d169484
+	github.com/go-ap/filters v0.0.0-20251119200236-228f88cb2de7
+	github.com/go-ap/storage-badger v0.0.0-20251119200811-fe1d420a284e
+	github.com/go-ap/storage-boltdb v0.0.0-20251119200745-4ed4233a26aa
 	github.com/go-ap/storage-conformance-suite v0.0.0-20251107175308-1f25da14ce88
-	github.com/go-ap/storage-fs v0.0.0-20251119155513-0c90202af1d3
-	github.com/go-ap/storage-sqlite v0.0.0-20251119155555-a4a980776cc9
+	github.com/go-ap/storage-fs v0.0.0-20251119200550-c8cf6307f17e
+	github.com/go-ap/storage-sqlite v0.0.0-20251119200613-021a15265c60
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 )
 
@@ -24,7 +24,7 @@ require (
 	github.com/dgraph-io/badger/v4 v4.8.0 // indirect
 	github.com/dgraph-io/ristretto/v2 v2.3.0 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
-	github.com/go-ap/cache v0.0.0-20251119155220-290a227710a9 // indirect
+	github.com/go-ap/cache v0.0.0-20251119200207-b59e201c6b31 // indirect
 	github.com/go-ap/jsonld v0.0.0-20250905102310-8480b0fe24d9 // indirect
 	github.com/go-chi/chi/v5 v5.2.3 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
@@ -52,7 +52,7 @@ require (
 	go.opentelemetry.io/otel v1.38.0 // indirect
 	go.opentelemetry.io/otel/metric v1.38.0 // indirect
 	go.opentelemetry.io/otel/trace v1.38.0 // indirect
-	golang.org/x/crypto v0.44.0 // indirect
+	golang.org/x/crypto v0.45.0 // indirect
 	golang.org/x/exp v0.0.0-20251113190631-e25ba8c21ef6 // indirect
 	golang.org/x/net v0.47.0 // indirect
 	golang.org/x/sys v0.38.0 // indirect
