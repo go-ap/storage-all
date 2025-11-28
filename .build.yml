@@ -3,6 +3,8 @@ packages:
   - go
 sources:
   - https://git.sr.ht/~mariusor/storage-all
+secrets:
+  - 231516a2-ca5d-42d0-8da1-b1d300485344
 environment:
   GO111MODULE: 'on'
 tasks:
@@ -28,3 +30,7 @@ tasks:
   - conformance-suite-badger: |
       cd storage-all
       go test -tags 'conformance storage_badger' -count=1 -json . | go run github.com/gotesttools/gotestfmt/v2/cmd/gotestfmt -showteststatus
+  - coverage-upload: |
+      cd storage-all
+      git switch -C master origin/master
+      go run github.com/mattn/goveralls@latest -tags conformance -flagname unit-tests -service=${CI_NAME} -repotokenfile ~/.coveralls.tok
