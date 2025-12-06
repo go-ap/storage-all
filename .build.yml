@@ -33,4 +33,5 @@ tasks:
   - coverage-upload: |
       cd storage-all
       git switch -C master origin/master
-      go run github.com/mattn/goveralls@latest -tags conformance -flagname unit-tests -service=${CI_NAME} -repotokenfile ~/.coveralls.tok
+      make coverage
+      go run github.com/mattn/goveralls@latest -flagname unit-tests -service=${CI_NAME} -coverprofile storage-all.coverprofile -repotokenfile ~/.coveralls.tok

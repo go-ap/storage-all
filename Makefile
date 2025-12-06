@@ -18,11 +18,24 @@ download:
 	$(GO) mod tidy
 
 test: download
-	$(TEST) $(TEST_FLAGS) $(TEST_TARGET)
+	@
+	$(TEST) $(TEST_FLAGS) -tags "conformance storage_fs" -cover $(TEST_TARGET) -json > tests.json
+	$(TEST) $(TEST_FLAGS) -tags "conformance storage_sqlite" -cover $(TEST_TARGET) -json >> tests.json
+	$(TEST) $(TEST_FLAGS) -tags "conformance storage_boltdb" -cover $(TEST_TARGET) -json >> tests.json
+	$(TEST) $(TEST_FLAGS) -tags "conformance storage_badger" -cover $(TEST_TARGET) -json >> tests.json
+	$(GO) run github.com/mfridman/tparse@latest -file tests.json
 
-coverage: TEST_FLAGS += -covermode=count -coverprofile $(PROJECT_NAME).coverprofile
-coverage: test
+coverage: go.sum clean
+	@mkdir ./_coverage
+	$(TEST) $(TEST_FLAGS) -tags "conformance storage_fs" -covermode=count -args -test.gocoverdir="$(PWD)/_coverage" $(TEST_TARGET) > /dev/null || true
+	$(TEST) $(TEST_FLAGS) -tags "conformance storage_sqlite" -covermode=count -args -test.gocoverdir="$(PWD)/_coverage" $(TEST_TARGET) > /dev/null || true
+	$(TEST) $(TEST_FLAGS) -tags "conformance storage_boltdb" -covermode=count -args -test.gocoverdir="$(PWD)/_coverage" $(TEST_TARGET) > /dev/null || true
+	$(TEST) $(TEST_FLAGS) -tags "conformance storage_badger" -covermode=count -args -test.gocoverdir="$(PWD)/_coverage" $(TEST_TARGET) > /dev/null || true
+	$(GO) tool covdata percent -i=./_coverage/ -o $(PROJECT_NAME).coverprofile
+	@$(RM) -r ./_coverage
 
 clean:
+	@$(RM) -r ./_coverage
 	$(RM) -v *.coverprofile
+	@$(RM) -v tests.json
 
