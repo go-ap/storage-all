@@ -4,14 +4,14 @@ go 1.25
 
 require (
 	git.sr.ht/~mariusor/lw v0.0.0-20250325163623-1639f3fb0e0d
-	github.com/go-ap/activitypub v0.0.0-20251215102718-6daa5f68e1b6
-	github.com/go-ap/errors v0.0.0-20250905102357-4480b47a00c4
-	github.com/go-ap/filters v0.0.0-20251215103009-83db92ca9d83
-	github.com/go-ap/storage-badger v0.0.0-20251215104410-175754981936
-	github.com/go-ap/storage-boltdb v0.0.0-20251215104347-0dfb66a462b0
+	github.com/go-ap/activitypub v0.0.0-20251216163124-e62e2d059636
+	github.com/go-ap/errors v0.0.0-20251216162958-cb99ea99a461
+	github.com/go-ap/filters v0.0.0-20251216163255-a21e95c19f74
+	github.com/go-ap/storage-badger v0.0.0-20251216163950-41433f7596a9
+	github.com/go-ap/storage-boltdb v0.0.0-20251216163924-57000b52737a
 	github.com/go-ap/storage-conformance-suite v0.0.0-20251201101719-495788974260
-	github.com/go-ap/storage-fs v0.0.0-20251215103506-4b9f2f0b9618
-	github.com/go-ap/storage-sqlite v0.0.0-20251215103608-c6f1deaa5491
+	github.com/go-ap/storage-fs v0.0.0-20251216163648-702dfe782e1c
+	github.com/go-ap/storage-sqlite v0.0.0-20251216163727-2e9a899e25c1
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 )
 
@@ -24,8 +24,8 @@ require (
 	github.com/dgraph-io/badger/v4 v4.8.0 // indirect
 	github.com/dgraph-io/ristretto/v2 v2.3.0 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
-	github.com/go-ap/cache v0.0.0-20251215102918-a1f0036ad3da // indirect
-	github.com/go-ap/jsonld v0.0.0-20250905102310-8480b0fe24d9 // indirect
+	github.com/go-ap/cache v0.0.0-20251216163157-446dbe3865f8 // indirect
+	github.com/go-ap/jsonld v0.0.0-20251216162253-e38fa664ea77 // indirect
 	github.com/go-chi/chi/v5 v5.2.3 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
@@ -62,7 +62,7 @@ require (
 	modernc.org/libc v1.67.1 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.11.0 // indirect
-	modernc.org/sqlite v1.40.1 // indirect
+	modernc.org/sqlite v1.40.2-0.20251208121757-c233febc9136 // indirect
 )
 
 tool github.com/gotesttools/gotestfmt/v2/cmd/gotestfmt
