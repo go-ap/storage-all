@@ -4,14 +4,14 @@ go 1.25
 
 require (
 	git.sr.ht/~mariusor/lw v0.0.0-20250325163623-1639f3fb0e0d
-	github.com/go-ap/activitypub v0.0.0-20251216163124-e62e2d059636
+	github.com/go-ap/activitypub v0.0.0-20251217103921-9808e9a35f7b
 	github.com/go-ap/errors v0.0.0-20251216162958-cb99ea99a461
-	github.com/go-ap/filters v0.0.0-20251216163255-a21e95c19f74
-	github.com/go-ap/storage-badger v0.0.0-20251216163950-41433f7596a9
-	github.com/go-ap/storage-boltdb v0.0.0-20251216163924-57000b52737a
+	github.com/go-ap/filters v0.0.0-20251217104054-a89c371835ef
+	github.com/go-ap/storage-badger v0.0.0-20251217104628-dd1f17193ada
+	github.com/go-ap/storage-boltdb v0.0.0-20251217104604-f1b7cdc0fbbb
 	github.com/go-ap/storage-conformance-suite v0.0.0-20251201101719-495788974260
-	github.com/go-ap/storage-fs v0.0.0-20251216163648-702dfe782e1c
-	github.com/go-ap/storage-sqlite v0.0.0-20251216163727-2e9a899e25c1
+	github.com/go-ap/storage-fs v0.0.0-20251217104523-be5b0e5e23a2
+	github.com/go-ap/storage-sqlite v0.0.0-20251217104657-485937124f96
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 )
 
@@ -21,7 +21,7 @@ require (
 	github.com/RoaringBitmap/roaring v1.9.4 // indirect
 	github.com/bits-and-blooms/bitset v1.24.4 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
-	github.com/dgraph-io/badger/v4 v4.8.0 // indirect
+	github.com/dgraph-io/badger/v4 v4.9.0 // indirect
 	github.com/dgraph-io/ristretto/v2 v2.3.0 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/go-ap/cache v0.0.0-20251216163157-446dbe3865f8 // indirect
