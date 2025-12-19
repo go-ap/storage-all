@@ -7,7 +7,7 @@ require (
 	github.com/go-ap/activitypub v0.0.0-20251217103921-9808e9a35f7b
 	github.com/go-ap/errors v0.0.0-20251216162958-cb99ea99a461
 	github.com/go-ap/filters v0.0.0-20251217104054-a89c371835ef
-	github.com/go-ap/storage-badger v0.0.0-20251217104628-dd1f17193ada
+	github.com/go-ap/storage-badger v0.0.0-20251218134939-77a229989de5
 	github.com/go-ap/storage-boltdb v0.0.0-20251217163214-48e5042b4192
 	github.com/go-ap/storage-conformance-suite v0.0.0-20251201101719-495788974260
 	github.com/go-ap/storage-fs v0.0.0-20251217104523-be5b0e5e23a2
@@ -62,7 +62,7 @@ require (
 	modernc.org/libc v1.67.1 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.11.0 // indirect
-	modernc.org/sqlite v1.40.2-0.20251208121757-c233febc9136 // indirect
+	modernc.org/sqlite v1.41.0 // indirect
 )
 
 tool github.com/gotesttools/gotestfmt/v2/cmd/gotestfmt
