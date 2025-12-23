@@ -4,14 +4,14 @@ go 1.25
 
 require (
 	git.sr.ht/~mariusor/lw v0.0.0-20250325163623-1639f3fb0e0d
-	github.com/go-ap/activitypub v0.0.0-20251217103921-9808e9a35f7b
+	github.com/go-ap/activitypub v0.0.0-20251223172601-b4d07d3da29a
 	github.com/go-ap/errors v0.0.0-20251216162958-cb99ea99a461
-	github.com/go-ap/filters v0.0.0-20251217104054-a89c371835ef
-	github.com/go-ap/storage-badger v0.0.0-20251218134939-77a229989de5
-	github.com/go-ap/storage-boltdb v0.0.0-20251217163214-48e5042b4192
+	github.com/go-ap/filters v0.0.0-20251223172742-63088f21cc67
+	github.com/go-ap/storage-badger v0.0.0-20251223173702-f38bb2d9fb29
+	github.com/go-ap/storage-boltdb v0.0.0-20251223173607-d6a792f0066e
 	github.com/go-ap/storage-conformance-suite v0.0.0-20251201101719-495788974260
-	github.com/go-ap/storage-fs v0.0.0-20251217104523-be5b0e5e23a2
-	github.com/go-ap/storage-sqlite v0.0.0-20251217104657-485937124f96
+	github.com/go-ap/storage-fs v0.0.0-20251223173104-55069d7672cc
+	github.com/go-ap/storage-sqlite v0.0.0-20251223173153-9ffd01696e13
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 )
 
@@ -24,12 +24,12 @@ require (
 	github.com/dgraph-io/badger/v4 v4.9.0 // indirect
 	github.com/dgraph-io/ristretto/v2 v2.3.0 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
-	github.com/go-ap/cache v0.0.0-20251216163157-446dbe3865f8 // indirect
+	github.com/go-ap/cache v0.0.0-20251223172710-f742dbb84a5b // indirect
 	github.com/go-ap/jsonld v0.0.0-20251216162253-e38fa664ea77 // indirect
 	github.com/go-chi/chi/v5 v5.2.3 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
-	github.com/google/flatbuffers v25.9.23+incompatible // indirect
+	github.com/google/flatbuffers v25.12.19+incompatible // indirect
 	github.com/google/go-cmp v0.7.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gotesttools/gotestfmt/v2 v2.5.0 // indirect
@@ -53,7 +53,7 @@ require (
 	go.opentelemetry.io/otel/metric v1.39.0 // indirect
 	go.opentelemetry.io/otel/trace v1.39.0 // indirect
 	golang.org/x/crypto v0.46.0 // indirect
-	golang.org/x/exp v0.0.0-20251209150349-8475f28825e9 // indirect
+	golang.org/x/exp v0.0.0-20251219203646-944ab1f22d93 // indirect
 	golang.org/x/net v0.48.0 // indirect
 	golang.org/x/sys v0.39.0 // indirect
 	golang.org/x/text v0.32.0 // indirect
