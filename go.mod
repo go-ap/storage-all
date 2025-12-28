@@ -4,14 +4,14 @@ go 1.25
 
 require (
 	git.sr.ht/~mariusor/lw v0.0.0-20250325163623-1639f3fb0e0d
-	github.com/go-ap/activitypub v0.0.0-20251223172601-b4d07d3da29a
+	github.com/go-ap/activitypub v0.0.0-20251228105452-778fa6c75996
 	github.com/go-ap/errors v0.0.0-20251216162958-cb99ea99a461
-	github.com/go-ap/filters v0.0.0-20251223172742-63088f21cc67
-	github.com/go-ap/storage-badger v0.0.0-20251223173702-f38bb2d9fb29
-	github.com/go-ap/storage-boltdb v0.0.0-20251223173607-d6a792f0066e
+	github.com/go-ap/filters v0.0.0-20251228105652-297072394eef
+	github.com/go-ap/storage-badger v0.0.0-20251228110202-c4bdc062e928
+	github.com/go-ap/storage-boltdb v0.0.0-20251228110004-264e6134a25b
 	github.com/go-ap/storage-conformance-suite v0.0.0-20251201101719-495788974260
-	github.com/go-ap/storage-fs v0.0.0-20251223173104-55069d7672cc
-	github.com/go-ap/storage-sqlite v0.0.0-20251223173153-9ffd01696e13
+	github.com/go-ap/storage-fs v0.0.0-20251228105945-6538c95e3da4
+	github.com/go-ap/storage-sqlite v0.0.0-20251228110250-9a0c4461fe57
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 )
 
@@ -24,7 +24,7 @@ require (
 	github.com/dgraph-io/badger/v4 v4.9.0 // indirect
 	github.com/dgraph-io/ristretto/v2 v2.3.0 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
-	github.com/go-ap/cache v0.0.0-20251223172710-f742dbb84a5b // indirect
+	github.com/go-ap/cache v0.0.0-20251228105541-bd8d24c58c90 // indirect
 	github.com/go-ap/jsonld v0.0.0-20251216162253-e38fa664ea77 // indirect
 	github.com/go-chi/chi/v5 v5.2.3 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
@@ -59,10 +59,10 @@ require (
 	golang.org/x/text v0.32.0 // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/neurosnap/sentences.v1 v1.0.7 // indirect
-	modernc.org/libc v1.67.1 // indirect
+	modernc.org/libc v1.67.2 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.11.0 // indirect
-	modernc.org/sqlite v1.41.0 // indirect
+	modernc.org/sqlite v1.42.1 // indirect
 )
 
 tool github.com/gotesttools/gotestfmt/v2/cmd/gotestfmt
