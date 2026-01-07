@@ -9,8 +9,8 @@ require (
 	github.com/go-ap/filters v0.0.0-20260102113139-8ad00475b09e
 	github.com/go-ap/storage-badger v0.0.0-20260102114145-aa5bc644359e
 	github.com/go-ap/storage-boltdb v0.0.0-20260102114123-757dc56b2df9
-	github.com/go-ap/storage-conformance-suite v0.0.0-20251229155509-5bedf674280a
-	github.com/go-ap/storage-fs v0.0.0-20260102113726-6d94ccf75406
+	github.com/go-ap/storage-conformance-suite v0.0.0-20260107120635-5332e51eadc5
+	github.com/go-ap/storage-fs v0.0.0-20260107121028-2811b990146e
 	github.com/go-ap/storage-sqlite v0.0.0-20260102121418-4baf35f75d8a
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 )
@@ -59,10 +59,12 @@ require (
 	golang.org/x/text v0.32.0 // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/neurosnap/sentences.v1 v1.0.7 // indirect
-	modernc.org/libc v1.67.3 // indirect
+	modernc.org/libc v1.67.4 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.11.0 // indirect
 	modernc.org/sqlite v1.42.2 // indirect
 )
+
+replace github.com/mattn/go-sqlite3 => github.com/mattn/go-sqlite3 v1.14.32
 
 tool github.com/gotesttools/gotestfmt/v2/cmd/gotestfmt
