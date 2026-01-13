@@ -8,10 +8,10 @@ require (
 	github.com/go-ap/errors v0.0.0-20251229095444-2702aa2d8569
 	github.com/go-ap/filters v0.0.0-20260102113139-8ad00475b09e
 	github.com/go-ap/storage-badger v0.0.0-20260102114145-aa5bc644359e
-	github.com/go-ap/storage-boltdb v0.0.0-20260102114123-757dc56b2df9
+	github.com/go-ap/storage-boltdb v0.0.0-20260113094534-8d74e7b54a7e
 	github.com/go-ap/storage-conformance-suite v0.0.0-20260107120635-5332e51eadc5
-	github.com/go-ap/storage-fs v0.0.0-20260107121028-2811b990146e
-	github.com/go-ap/storage-sqlite v0.0.0-20260108113015-44b4272b36f5
+	github.com/go-ap/storage-fs v0.0.0-20260113134619-7c780f3e91d2
+	github.com/go-ap/storage-sqlite v0.0.0-20260113134950-4a50708fbb88
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 )
 
@@ -52,17 +52,17 @@ require (
 	go.opentelemetry.io/otel v1.39.0 // indirect
 	go.opentelemetry.io/otel/metric v1.39.0 // indirect
 	go.opentelemetry.io/otel/trace v1.39.0 // indirect
-	golang.org/x/crypto v0.46.0 // indirect
-	golang.org/x/exp v0.0.0-20251219203646-944ab1f22d93 // indirect
-	golang.org/x/net v0.48.0 // indirect
+	golang.org/x/crypto v0.47.0 // indirect
+	golang.org/x/exp v0.0.0-20260112195511-716be5621a96 // indirect
+	golang.org/x/net v0.49.0 // indirect
 	golang.org/x/sys v0.40.0 // indirect
-	golang.org/x/text v0.32.0 // indirect
+	golang.org/x/text v0.33.0 // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/neurosnap/sentences.v1 v1.0.7 // indirect
 	modernc.org/libc v1.67.4 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.11.0 // indirect
-	modernc.org/sqlite v1.42.2 // indirect
+	modernc.org/sqlite v1.43.0 // indirect
 )
 
 replace github.com/mattn/go-sqlite3 => github.com/mattn/go-sqlite3 v1.14.32
