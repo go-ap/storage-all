@@ -10,7 +10,7 @@ require (
 	github.com/go-ap/storage-badger v0.0.0-20260115143902-93ad4ee448ec
 	github.com/go-ap/storage-boltdb v0.0.0-20260115143826-b24156d16556
 	github.com/go-ap/storage-conformance-suite v0.0.0-20260107120635-5332e51eadc5
-	github.com/go-ap/storage-fs v0.0.0-20260115143003-506800fdd7bc
+	github.com/go-ap/storage-fs v0.0.0-20260122094829-2133982397f1
 	github.com/go-ap/storage-sqlite v0.0.0-20260115143634-11dae4530127
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 )
@@ -22,7 +22,7 @@ require (
 	github.com/bits-and-blooms/bitset v1.24.4 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/dgraph-io/badger/v4 v4.9.0 // indirect
-	github.com/dgraph-io/ristretto/v2 v2.3.0 // indirect
+	github.com/dgraph-io/ristretto/v2 v2.4.0 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/go-ap/cache v0.0.0-20260115142614-f5f3c7970085 // indirect
 	github.com/go-ap/jsonld v0.0.0-20251216162253-e38fa664ea77 // indirect
@@ -34,7 +34,7 @@ require (
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gotesttools/gotestfmt/v2 v2.5.0 // indirect
 	github.com/jdkato/prose v1.2.1 // indirect
-	github.com/klauspost/compress v1.18.2 // indirect
+	github.com/klauspost/compress v1.18.3 // indirect
 	github.com/mariusor/qstring v0.0.0-20200204164351-5a99d46de39d // indirect
 	github.com/mattn/go-colorable v0.1.14 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
@@ -62,7 +62,7 @@ require (
 	modernc.org/libc v1.67.6 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.11.0 // indirect
-	modernc.org/sqlite v1.44.0 // indirect
+	modernc.org/sqlite v1.44.3 // indirect
 )
 
 replace github.com/mattn/go-sqlite3 => github.com/mattn/go-sqlite3 v1.14.32
