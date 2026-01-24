@@ -7,11 +7,11 @@ require (
 	github.com/go-ap/activitypub v0.0.0-20260123105353-38736987d071
 	github.com/go-ap/errors v0.0.0-20251229095444-2702aa2d8569
 	github.com/go-ap/filters v0.0.0-20260124112747-f1400f81a7a6
-	github.com/go-ap/storage-badger v0.0.0-20260124113536-f13662d88c13
-	github.com/go-ap/storage-boltdb v0.0.0-20260124113457-695da55e05e5
-	github.com/go-ap/storage-conformance-suite v0.0.0-20260107120635-5332e51eadc5
-	github.com/go-ap/storage-fs v0.0.0-20260124113259-5c0c0b5df858
-	github.com/go-ap/storage-sqlite v0.0.0-20260124113412-1c2a7036afce
+	github.com/go-ap/storage-badger v0.0.0-20260124131155-f02064509c53
+	github.com/go-ap/storage-boltdb v0.0.0-20260124131124-5de332efdfc2
+	github.com/go-ap/storage-conformance-suite v0.0.0-20260124131001-e63baec4d16f
+	github.com/go-ap/storage-fs v0.0.0-20260124131044-8245c901b939
+	github.com/go-ap/storage-sqlite v0.0.0-20260124131243-b39b9d0119df
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 )
 
