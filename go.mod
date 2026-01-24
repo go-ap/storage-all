@@ -4,14 +4,14 @@ go 1.25
 
 require (
 	git.sr.ht/~mariusor/lw v0.0.0-20250325163623-1639f3fb0e0d
-	github.com/go-ap/activitypub v0.0.0-20260115142526-c0e6aa6744cc
+	github.com/go-ap/activitypub v0.0.0-20260123105353-38736987d071
 	github.com/go-ap/errors v0.0.0-20251229095444-2702aa2d8569
-	github.com/go-ap/filters v0.0.0-20260115142717-20ef6131898d
-	github.com/go-ap/storage-badger v0.0.0-20260115143902-93ad4ee448ec
-	github.com/go-ap/storage-boltdb v0.0.0-20260115143826-b24156d16556
+	github.com/go-ap/filters v0.0.0-20260124112747-f1400f81a7a6
+	github.com/go-ap/storage-badger v0.0.0-20260124113536-f13662d88c13
+	github.com/go-ap/storage-boltdb v0.0.0-20260124113457-695da55e05e5
 	github.com/go-ap/storage-conformance-suite v0.0.0-20260107120635-5332e51eadc5
-	github.com/go-ap/storage-fs v0.0.0-20260122094829-2133982397f1
-	github.com/go-ap/storage-sqlite v0.0.0-20260115143634-11dae4530127
+	github.com/go-ap/storage-fs v0.0.0-20260124113259-5c0c0b5df858
+	github.com/go-ap/storage-sqlite v0.0.0-20260124113412-1c2a7036afce
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 )
 
@@ -24,7 +24,7 @@ require (
 	github.com/dgraph-io/badger/v4 v4.9.0 // indirect
 	github.com/dgraph-io/ristretto/v2 v2.4.0 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
-	github.com/go-ap/cache v0.0.0-20260115142614-f5f3c7970085 // indirect
+	github.com/go-ap/cache v0.0.0-20260124112700-1e093ed2c53f // indirect
 	github.com/go-ap/jsonld v0.0.0-20251216162253-e38fa664ea77 // indirect
 	github.com/go-chi/chi/v5 v5.2.4 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
