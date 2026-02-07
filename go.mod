@@ -4,14 +4,14 @@ go 1.25
 
 require (
 	git.sr.ht/~mariusor/lw v0.0.0-20250325163623-1639f3fb0e0d
-	github.com/go-ap/activitypub v0.0.0-20260202131303-c2713046c63a
-	github.com/go-ap/errors v0.0.0-20251229095444-2702aa2d8569
-	github.com/go-ap/filters v0.0.0-20260202134526-dc7825a152e6
-	github.com/go-ap/storage-badger v0.0.0-20260202142348-ce675b9d9614
-	github.com/go-ap/storage-boltdb v0.0.0-20260202142212-bd21893727ce
-	github.com/go-ap/storage-conformance-suite v0.0.0-20260202142037-af4c9327a00d
-	github.com/go-ap/storage-fs v0.0.0-20260202142139-4d353c26c3b4
-	github.com/go-ap/storage-sqlite v0.0.0-20260202142308-3fd6a0634d0b
+	github.com/go-ap/activitypub v0.0.0-20260208110334-902f6cf8c2cc
+	github.com/go-ap/errors v0.0.0-20260208110149-e1b309365966
+	github.com/go-ap/filters v0.0.0-20260208110534-2b07661eb286
+	github.com/go-ap/storage-badger v0.0.0-20260208113004-d40d38a49258
+	github.com/go-ap/storage-boltdb v0.0.0-20260208112910-65e670b40bc7
+	github.com/go-ap/storage-conformance-suite v0.0.0-20260202151441-bcd32bc22076
+	github.com/go-ap/storage-fs v0.0.0-20260208112815-566e3e1f4931
+	github.com/go-ap/storage-sqlite v0.0.0-20260208113153-59db77a2411c
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 )
 
@@ -21,12 +21,12 @@ require (
 	github.com/RoaringBitmap/roaring v1.9.4 // indirect
 	github.com/bits-and-blooms/bitset v1.24.4 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
-	github.com/dgraph-io/badger/v4 v4.9.0 // indirect
+	github.com/dgraph-io/badger/v4 v4.9.1 // indirect
 	github.com/dgraph-io/ristretto/v2 v2.4.0 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
-	github.com/go-ap/cache v0.0.0-20260202134150-d40f63b8b457 // indirect
+	github.com/go-ap/cache v0.0.0-20260208110517-9ae26d9d036b // indirect
 	github.com/go-ap/jsonld v0.0.0-20251216162253-e38fa664ea77 // indirect
-	github.com/go-chi/chi/v5 v5.2.4 // indirect
+	github.com/go-chi/chi/v5 v5.2.5 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/google/flatbuffers v25.12.19+incompatible // indirect
@@ -49,9 +49,9 @@ require (
 	github.com/valyala/fastjson v1.6.7 // indirect
 	go.etcd.io/bbolt v1.4.3 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
-	go.opentelemetry.io/otel v1.39.0 // indirect
-	go.opentelemetry.io/otel/metric v1.39.0 // indirect
-	go.opentelemetry.io/otel/trace v1.39.0 // indirect
+	go.opentelemetry.io/otel v1.40.0 // indirect
+	go.opentelemetry.io/otel/metric v1.40.0 // indirect
+	go.opentelemetry.io/otel/trace v1.40.0 // indirect
 	golang.org/x/crypto v0.47.0 // indirect
 	golang.org/x/exp v0.0.0-20260112195511-716be5621a96 // indirect
 	golang.org/x/net v0.49.0 // indirect
