@@ -6,12 +6,12 @@ require (
 	git.sr.ht/~mariusor/lw v0.0.0-20250325163623-1639f3fb0e0d
 	github.com/go-ap/activitypub v0.0.0-20260217161652-7bec47e1f870
 	github.com/go-ap/errors v0.0.0-20260208110149-e1b309365966
-	github.com/go-ap/filters v0.0.0-20260217161827-328591eba1ab
-	github.com/go-ap/storage-badger v0.0.0-20260217163252-645c0dfab9c2
-	github.com/go-ap/storage-boltdb v0.0.0-20260216121431-24ea686833c8
-	github.com/go-ap/storage-conformance-suite v0.0.0-20260216121155-e41e61167737
-	github.com/go-ap/storage-fs v0.0.0-20260217162221-0a9bd29266b1
-	github.com/go-ap/storage-sqlite v0.0.0-20260217162852-7211f9563345
+	github.com/go-ap/filters v0.0.0-20260225075253-189c95c4e82b
+	github.com/go-ap/storage-badger v0.0.0-20260225080219-662927c32a93
+	github.com/go-ap/storage-boltdb v0.0.0-20260225080058-9d1ca7fe319f
+	github.com/go-ap/storage-conformance-suite v0.0.0-20260224104644-d108133388c0
+	github.com/go-ap/storage-fs v0.0.0-20260225075958-e19c2ac3dc1a
+	github.com/go-ap/storage-sqlite v0.0.0-20260225080442-b115c38e5675
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 )
 
@@ -46,14 +46,14 @@ require (
 	github.com/rs/xid v1.6.0 // indirect
 	github.com/rs/zerolog v1.34.0 // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
-	github.com/valyala/fastjson v1.6.7 // indirect
+	github.com/valyala/fastjson v1.6.10 // indirect
 	go.etcd.io/bbolt v1.4.3 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/otel v1.40.0 // indirect
 	go.opentelemetry.io/otel/metric v1.40.0 // indirect
 	go.opentelemetry.io/otel/trace v1.40.0 // indirect
 	golang.org/x/crypto v0.48.0 // indirect
-	golang.org/x/exp v0.0.0-20260212183809-81e46e3db34a // indirect
+	golang.org/x/exp v0.0.0-20260218203240-3dfff04db8fa // indirect
 	golang.org/x/net v0.50.0 // indirect
 	golang.org/x/sys v0.41.0 // indirect
 	golang.org/x/text v0.34.0 // indirect
@@ -62,7 +62,8 @@ require (
 	modernc.org/libc v1.68.0 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.11.0 // indirect
-	modernc.org/sqlite v1.45.0 // indirect
+	modernc.org/sqlite v1.46.1 // indirect
+	quamina.net/go/quamina v1.5.2-0.20260219224429-4b74c3864009 // indirect
 )
 
 replace github.com/mattn/go-sqlite3 => github.com/mattn/go-sqlite3 v1.14.32

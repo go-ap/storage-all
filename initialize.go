@@ -164,10 +164,11 @@ func getFsConfig(opt options) (fs.Config, error) {
 		l = l.WithContext(lw.Ctx{"path": path, "storage": opt.Storage})
 	}
 	return fs.Config{
-		Path:        path,
-		CacheEnable: opt.StorageCache,
-		Logger:      l,
-		UseIndex:    opt.UseIndex,
+		Path:                     path,
+		Logger:                   l,
+		EnableCache:              opt.StorageCache,
+		EnableIndex:              opt.UseIndex,
+		EnableOptimizedFiltering: true,
 	}, nil
 }
 
