@@ -6,11 +6,11 @@ require (
 	git.sr.ht/~mariusor/lw v0.0.0-20250325163623-1639f3fb0e0d
 	github.com/go-ap/activitypub v0.0.0-20260217161652-7bec47e1f870
 	github.com/go-ap/errors v0.0.0-20260208110149-e1b309365966
-	github.com/go-ap/filters v0.0.0-20260225075253-189c95c4e82b
+	github.com/go-ap/filters v0.0.0-20260226150505-87b64895b474
 	github.com/go-ap/storage-badger v0.0.0-20260225080219-662927c32a93
 	github.com/go-ap/storage-boltdb v0.0.0-20260225080058-9d1ca7fe319f
 	github.com/go-ap/storage-conformance-suite v0.0.0-20260224104644-d108133388c0
-	github.com/go-ap/storage-fs v0.0.0-20260225075958-e19c2ac3dc1a
+	github.com/go-ap/storage-fs v0.0.0-20260226152716-dfddf3a7d12f
 	github.com/go-ap/storage-sqlite v0.0.0-20260225080442-b115c38e5675
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 )
@@ -54,7 +54,7 @@ require (
 	go.opentelemetry.io/otel/trace v1.40.0 // indirect
 	golang.org/x/crypto v0.48.0 // indirect
 	golang.org/x/exp v0.0.0-20260218203240-3dfff04db8fa // indirect
-	golang.org/x/net v0.50.0 // indirect
+	golang.org/x/net v0.51.0 // indirect
 	golang.org/x/sys v0.41.0 // indirect
 	golang.org/x/text v0.34.0 // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
