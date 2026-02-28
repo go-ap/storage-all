@@ -168,7 +168,7 @@ func getFsConfig(opt options) (fs.Config, error) {
 		Logger:                   l,
 		EnableCache:              opt.StorageCache,
 		EnableIndex:              opt.UseIndex,
-		EnableOptimizedFiltering: false,
+		EnableOptimizedFiltering: true,
 	}, nil
 }
 

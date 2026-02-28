@@ -6,12 +6,12 @@ require (
 	git.sr.ht/~mariusor/lw v0.0.0-20250325163623-1639f3fb0e0d
 	github.com/go-ap/activitypub v0.0.0-20260217161652-7bec47e1f870
 	github.com/go-ap/errors v0.0.0-20260208110149-e1b309365966
-	github.com/go-ap/filters v0.0.0-20260226150505-87b64895b474
-	github.com/go-ap/storage-badger v0.0.0-20260225080219-662927c32a93
-	github.com/go-ap/storage-boltdb v0.0.0-20260225080058-9d1ca7fe319f
+	github.com/go-ap/filters v0.0.0-20260304093742-67453e8a9d1a
+	github.com/go-ap/storage-badger v0.0.0-20260304095632-5385679a7b6c
+	github.com/go-ap/storage-boltdb v0.0.0-20260304095551-39f69d82a998
 	github.com/go-ap/storage-conformance-suite v0.0.0-20260224104644-d108133388c0
-	github.com/go-ap/storage-fs v0.0.0-20260226152716-dfddf3a7d12f
-	github.com/go-ap/storage-sqlite v0.0.0-20260225080442-b115c38e5675
+	github.com/go-ap/storage-fs v0.0.0-20260304094846-a03a55a6a9d9
+	github.com/go-ap/storage-sqlite v0.0.0-20260304095449-57ce50c44a41
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 )
 
@@ -49,17 +49,17 @@ require (
 	github.com/valyala/fastjson v1.6.10 // indirect
 	go.etcd.io/bbolt v1.4.3 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
-	go.opentelemetry.io/otel v1.40.0 // indirect
-	go.opentelemetry.io/otel/metric v1.40.0 // indirect
-	go.opentelemetry.io/otel/trace v1.40.0 // indirect
+	go.opentelemetry.io/otel v1.41.0 // indirect
+	go.opentelemetry.io/otel/metric v1.41.0 // indirect
+	go.opentelemetry.io/otel/trace v1.41.0 // indirect
 	golang.org/x/crypto v0.48.0 // indirect
-	golang.org/x/exp v0.0.0-20260218203240-3dfff04db8fa // indirect
+	golang.org/x/mod v0.33.0 // indirect
 	golang.org/x/net v0.51.0 // indirect
 	golang.org/x/sys v0.41.0 // indirect
 	golang.org/x/text v0.34.0 // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/neurosnap/sentences.v1 v1.0.7 // indirect
-	modernc.org/libc v1.68.0 // indirect
+	modernc.org/libc v1.69.0 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.11.0 // indirect
 	modernc.org/sqlite v1.46.1 // indirect
