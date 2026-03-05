@@ -6,12 +6,12 @@ require (
 	git.sr.ht/~mariusor/lw v0.0.0-20250325163623-1639f3fb0e0d
 	github.com/go-ap/activitypub v0.0.0-20260217161652-7bec47e1f870
 	github.com/go-ap/errors v0.0.0-20260208110149-e1b309365966
-	github.com/go-ap/filters v0.0.0-20260304093742-67453e8a9d1a
-	github.com/go-ap/storage-badger v0.0.0-20260304095632-5385679a7b6c
-	github.com/go-ap/storage-boltdb v0.0.0-20260304095551-39f69d82a998
+	github.com/go-ap/filters v0.0.0-20260304154239-73b267632547
+	github.com/go-ap/storage-badger v0.0.0-20260305105216-301171704e63
+	github.com/go-ap/storage-boltdb v0.0.0-20260305105006-cd1e1b0995f8
 	github.com/go-ap/storage-conformance-suite v0.0.0-20260224104644-d108133388c0
-	github.com/go-ap/storage-fs v0.0.0-20260304094846-a03a55a6a9d9
-	github.com/go-ap/storage-sqlite v0.0.0-20260304095449-57ce50c44a41
+	github.com/go-ap/storage-fs v0.0.0-20260305104934-eb2423d0cd93
+	github.com/go-ap/storage-sqlite v0.0.0-20260305105143-fee48789f608
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 )
 
