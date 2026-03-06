@@ -37,8 +37,8 @@ github.com/go-ap/filters v0.0.0-20260304154239-73b267632547 h1:r9yKPixxh8bfN8Kgc
 github.com/go-ap/filters v0.0.0-20260304154239-73b267632547/go.mod h1:xoEs0VCmDEN9edOs3JmkrJGBydWtlzRIpBtknSFcDwE=
 github.com/go-ap/jsonld v0.0.0-20251216162253-e38fa664ea77 h1:yHAmoR6avNy84PlLmjHt1z9flAp2Qs2ens5QDE/CNWk=
 github.com/go-ap/jsonld v0.0.0-20251216162253-e38fa664ea77/go.mod h1:4h93IBxgfnE/DEleMLgJ/XCeu/RtQ+MUh3ucANseeXA=
-github.com/go-ap/storage-badger v0.0.0-20260305105216-301171704e63 h1:ky6HTR+cw27Y7AVdbkwWCnTk09QBVnfu8IaH8VK29yg=
-github.com/go-ap/storage-badger v0.0.0-20260305105216-301171704e63/go.mod h1:N0te0RMkiETTdgms7QNxbUXi0IWeOQ1crr/NcK9T90E=
+github.com/go-ap/storage-badger v0.0.0-20260306133105-a972a6c743e5 h1:P+d531AThfNZk1BYEqgvl1s8h6ibLFerNTBTXp8W0jM=
+github.com/go-ap/storage-badger v0.0.0-20260306133105-a972a6c743e5/go.mod h1:N0te0RMkiETTdgms7QNxbUXi0IWeOQ1crr/NcK9T90E=
 github.com/go-ap/storage-boltdb v0.0.0-20260305105006-cd1e1b0995f8 h1:C1Cm4NMmQdU3zMUgcZbER+7zEQBOmMl3IEhZ/GmjvaQ=
 github.com/go-ap/storage-boltdb v0.0.0-20260305105006-cd1e1b0995f8/go.mod h1:IorzPS4xJgLbq04gSA8ix8yGJkbDzTYv1NnUErfAoeo=
 github.com/go-ap/storage-conformance-suite v0.0.0-20260224104644-d108133388c0 h1:yfpq5Iaty+73XIj1J+be7lleb9nhd8b0aB+WkHWXXfs=
