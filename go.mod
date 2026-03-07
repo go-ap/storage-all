@@ -6,12 +6,12 @@ require (
 	git.sr.ht/~mariusor/lw v0.0.0-20250325163623-1639f3fb0e0d
 	github.com/go-ap/activitypub v0.0.0-20260217161652-7bec47e1f870
 	github.com/go-ap/errors v0.0.0-20260208110149-e1b309365966
-	github.com/go-ap/filters v0.0.0-20260304154239-73b267632547
-	github.com/go-ap/storage-badger v0.0.0-20260306133105-a972a6c743e5
-	github.com/go-ap/storage-boltdb v0.0.0-20260305105006-cd1e1b0995f8
+	github.com/go-ap/filters v0.0.0-20260307142424-44b629447fc4
+	github.com/go-ap/storage-badger v0.0.0-20260307143509-65557e134c66
+	github.com/go-ap/storage-boltdb v0.0.0-20260307143117-4b25b47262b2
 	github.com/go-ap/storage-conformance-suite v0.0.0-20260224104644-d108133388c0
-	github.com/go-ap/storage-fs v0.0.0-20260305104934-eb2423d0cd93
-	github.com/go-ap/storage-sqlite v0.0.0-20260305105143-fee48789f608
+	github.com/go-ap/storage-fs v0.0.0-20260307143050-5c3f9aee19c2
+	github.com/go-ap/storage-sqlite v0.0.0-20260307143442-718132db0f0e
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 )
 
@@ -49,9 +49,9 @@ require (
 	github.com/valyala/fastjson v1.6.10 // indirect
 	go.etcd.io/bbolt v1.4.3 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
-	go.opentelemetry.io/otel v1.41.0 // indirect
-	go.opentelemetry.io/otel/metric v1.41.0 // indirect
-	go.opentelemetry.io/otel/trace v1.41.0 // indirect
+	go.opentelemetry.io/otel v1.42.0 // indirect
+	go.opentelemetry.io/otel/metric v1.42.0 // indirect
+	go.opentelemetry.io/otel/trace v1.42.0 // indirect
 	golang.org/x/crypto v0.48.0 // indirect
 	golang.org/x/mod v0.33.0 // indirect
 	golang.org/x/net v0.51.0 // indirect
