@@ -4,14 +4,14 @@ go 1.25.0
 
 require (
 	git.sr.ht/~mariusor/lw v0.0.0-20250325163623-1639f3fb0e0d
-	github.com/go-ap/activitypub v0.0.0-20260309180253-5f9949892033
+	github.com/go-ap/activitypub v0.0.0-20260314162927-f37166117816
 	github.com/go-ap/errors v0.0.0-20260208110149-e1b309365966
-	github.com/go-ap/filters v0.0.0-20260309180622-bea723110f0f
-	github.com/go-ap/storage-badger v0.0.0-20260309181317-4c4d135ae5e6
-	github.com/go-ap/storage-boltdb v0.0.0-20260309181210-263855a593dd
+	github.com/go-ap/filters v0.0.0-20260314171937-f049bd20de96
+	github.com/go-ap/storage-badger v0.0.0-20260314173226-63551d805f30
+	github.com/go-ap/storage-boltdb v0.0.0-20260314173054-2fe88545669f
 	github.com/go-ap/storage-conformance-suite v0.0.0-20260224104644-d108133388c0
-	github.com/go-ap/storage-fs v0.0.0-20260309181001-e2bbeb17a6b2
-	github.com/go-ap/storage-sqlite v0.0.0-20260309181118-d2c26610582b
+	github.com/go-ap/storage-fs v0.0.0-20260314172723-ee564567add2
+	github.com/go-ap/storage-sqlite v0.0.0-20260314172840-17d90c96e308
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 )
 
@@ -24,7 +24,7 @@ require (
 	github.com/dgraph-io/badger/v4 v4.9.1 // indirect
 	github.com/dgraph-io/ristretto/v2 v2.4.0 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
-	github.com/go-ap/cache v0.0.0-20260309180527-f2e7bd7e14c5 // indirect
+	github.com/go-ap/cache v0.0.0-20260314171843-db47857306fa // indirect
 	github.com/go-ap/jsonld v0.0.0-20251216162253-e38fa664ea77 // indirect
 	github.com/go-chi/chi/v5 v5.2.5 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
@@ -52,10 +52,10 @@ require (
 	go.opentelemetry.io/otel v1.42.0 // indirect
 	go.opentelemetry.io/otel/metric v1.42.0 // indirect
 	go.opentelemetry.io/otel/trace v1.42.0 // indirect
-	golang.org/x/crypto v0.48.0 // indirect
-	golang.org/x/net v0.51.0 // indirect
+	golang.org/x/crypto v0.49.0 // indirect
+	golang.org/x/net v0.52.0 // indirect
 	golang.org/x/sys v0.42.0 // indirect
-	golang.org/x/text v0.34.0 // indirect
+	golang.org/x/text v0.35.0 // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/neurosnap/sentences.v1 v1.0.7 // indirect
 	modernc.org/libc v1.70.0 // indirect
