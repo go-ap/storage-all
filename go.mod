@@ -7,10 +7,10 @@ require (
 	github.com/go-ap/activitypub v0.0.0-20260314162927-f37166117816
 	github.com/go-ap/errors v0.0.0-20260208110149-e1b309365966
 	github.com/go-ap/filters v0.0.0-20260314171937-f049bd20de96
-	github.com/go-ap/storage-badger v0.0.0-20260314173226-63551d805f30
-	github.com/go-ap/storage-boltdb v0.0.0-20260314173054-2fe88545669f
+	github.com/go-ap/storage-badger v0.0.0-20260316081728-9c5b8e54e2df
+	github.com/go-ap/storage-boltdb v0.0.0-20260316081711-b2906bf81ab1
 	github.com/go-ap/storage-conformance-suite v0.0.0-20260224104644-d108133388c0
-	github.com/go-ap/storage-fs v0.0.0-20260314172723-ee564567add2
+	github.com/go-ap/storage-fs v0.0.0-20260316081616-25efa1d82db0
 	github.com/go-ap/storage-sqlite v0.0.0-20260314172840-17d90c96e308
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 )
@@ -62,7 +62,7 @@ require (
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.11.0 // indirect
 	modernc.org/sqlite v1.46.1 // indirect
-	quamina.net/go/quamina v1.5.2-0.20260219224429-4b74c3864009 // indirect
+	quamina.net/go/quamina v1.5.2-0.20260306081357-88daf10bf1dc // indirect
 )
 
 replace github.com/mattn/go-sqlite3 => github.com/mattn/go-sqlite3 v1.14.32
