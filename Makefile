@@ -16,7 +16,7 @@ PROJECT_NAME := $(shell basename $(PWD))
 
 download: go.sum
 
-go.sum:
+go.sum: go.mod
 	$(GO) mod tidy
 
 test: go.sum clean
@@ -25,7 +25,7 @@ test: go.sum clean
 	$(TEST) $(TEST_FLAGS) -tags "conformance storage_sqlite" -cover $(TEST_TARGET) -json >> tests.json
 	$(TEST) $(TEST_FLAGS) -tags "conformance storage_boltdb" -cover $(TEST_TARGET) -json >> tests.json
 	$(TEST) $(TEST_FLAGS) -tags "conformance storage_badger" -cover $(TEST_TARGET) -json >> tests.json
-	$(GO) run github.com/mfridman/tparse@latest -file tests.json
+	$(GO) tool tparse -file tests.json
 
 bench: go.sum clean
 	$(TEST) $(TEST_FLAGS) -test.bench=. -test.run=xxxxx -cover $(TEST_TARGET)
