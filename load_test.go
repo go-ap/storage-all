@@ -196,7 +196,6 @@ func Benchmark_Load_FS(b *testing.B) {
 }
 
 func Benchmark_Load_Postgres(b *testing.B) {
-
 	st, err := _init(b, Postgres)
 	if err != nil {
 		b.Fatalf("unable to initialize storage %s", err)

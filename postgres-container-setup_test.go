@@ -9,10 +9,14 @@ import (
 
 	pg "github.com/go-ap/storage-pg"
 	"github.com/jackc/pgx/v5"
-	"github.com/testcontainers/testcontainers-go"
+	tc "github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/modules/postgres"
 	"github.com/testcontainers/testcontainers-go/wait"
 )
+
+type noopLogger struct{}
+
+func (n noopLogger) Printf(_ string, _ ...any) {}
 
 func setupContainer(t testing.TB) pg.Config {
 	ctx := context.Background()
@@ -21,12 +25,14 @@ func setupContainer(t testing.TB) pg.Config {
 		t.Skipf("no DOCKER_HOST environment variable set to use for go-containers setup")
 		return pg.Config{}
 	}
+	l := noopLogger{}
 	pgContainer, err := postgres.Run(ctx, "postgres:18-alpine",
 		postgres.WithInitScripts(filepath.Join("images", "init-db.sql")),
 		postgres.WithDatabase("test-db"),
 		postgres.WithUsername("postgres"),
 		postgres.WithPassword("postgres"),
-		testcontainers.WithWaitStrategy(
+		tc.WithLogger(l),
+		tc.WithWaitStrategy(
 			wait.ForLog("database system is ready to accept connections").
 				WithOccurrence(2).WithStartupTimeout(5*time.Second)),
 	)
