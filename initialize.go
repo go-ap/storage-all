@@ -200,6 +200,7 @@ func getSqliteConfig(opt options) (sqlite.Config, error) {
 		ErrFn:       l.Warnf,
 	}, nil
 }
+
 func getSqliteStorage(opt options) (FullStorage, error) {
 	conf, err := getSqliteConfig(opt)
 	if err != nil {
