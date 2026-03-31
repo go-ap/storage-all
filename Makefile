@@ -21,10 +21,11 @@ go.sum: go.mod
 
 test: go.sum clean
 	@
-	$(TEST) $(TEST_FLAGS) -tags "conformance storage_fs" -cover $(TEST_TARGET) -json > tests.json
-	$(TEST) $(TEST_FLAGS) -tags "conformance storage_sqlite" -cover $(TEST_TARGET) -json >> tests.json
-	$(TEST) $(TEST_FLAGS) -tags "conformance storage_boltdb" -cover $(TEST_TARGET) -json >> tests.json
-	$(TEST) $(TEST_FLAGS) -tags "conformance storage_badger" -cover $(TEST_TARGET) -json >> tests.json
+	$(TEST) $(TEST_FLAGS) -test.bench=xxxxx -tags "conformance storage_fs" -cover $(TEST_TARGET) -json > tests.json || true
+	$(TEST) $(TEST_FLAGS) -test.bench=xxxxx -tags "conformance storage_sqlite" -cover $(TEST_TARGET) -json >> tests.json || true
+	$(TEST) $(TEST_FLAGS) -test.bench=xxxxx -tags "conformance storage_boltdb" -cover $(TEST_TARGET) -json >> tests.json || true
+	$(TEST) $(TEST_FLAGS) -test.bench=xxxxx -tags "conformance storage_badger" -cover $(TEST_TARGET) -json >> tests.json || true
+	$(TEST) $(TEST_FLAGS) -test.bench=xxxxx -tags "conformance storage_postgres" -cover $(TEST_TARGET) -json >> tests.json || true
 	$(GO) tool tparse -file tests.json
 
 bench: go.sum clean
@@ -32,12 +33,12 @@ bench: go.sum clean
 
 coverage: go.sum clean
 	@mkdir ./_coverage
-	$(TEST) $(TEST_FLAGS) -tags "conformance storage_fs" -covermode=count -args -test.gocoverdir="$(PWD)/_coverage" $(TEST_TARGET) > /dev/null || true
-	$(TEST) $(TEST_FLAGS) -tags "conformance storage_sqlite" -covermode=count -args -test.gocoverdir="$(PWD)/_coverage" $(TEST_TARGET) > /dev/null || true
-	$(TEST) $(TEST_FLAGS) -tags "conformance storage_boltdb" -covermode=count -args -test.gocoverdir="$(PWD)/_coverage" $(TEST_TARGET) > /dev/null || true
-	$(TEST) $(TEST_FLAGS) -tags "conformance storage_badger" -covermode=count -args -test.gocoverdir="$(PWD)/_coverage" $(TEST_TARGET) > /dev/null || true
+	$(TEST) $(TEST_FLAGS) -test.bench=xxxxx -tags "conformance storage_fs" -covermode=count -args -test.gocoverdir="$(PWD)/_coverage" $(TEST_TARGET) > /dev/null || true
+	$(TEST) $(TEST_FLAGS) -test.bench=xxxxx -tags "conformance storage_sqlite" -covermode=count -args -test.gocoverdir="$(PWD)/_coverage" $(TEST_TARGET) > /dev/null || true
+	$(TEST) $(TEST_FLAGS) -test.bench=xxxxx -tags "conformance storage_boltdb" -covermode=count -args -test.gocoverdir="$(PWD)/_coverage" $(TEST_TARGET) > /dev/null || true
+	$(TEST) $(TEST_FLAGS) -test.bench=xxxxx -tags "conformance storage_badger" -covermode=count -args -test.gocoverdir="$(PWD)/_coverage" $(TEST_TARGET) > /dev/null || true
+	$(TEST) $(TEST_FLAGS) -test.bench=xxxxx -tags "conformance storage_postgres" -covermode=count -args -test.gocoverdir="$(PWD)/_coverage" $(TEST_TARGET) > /dev/null || true
 	$(GO) tool covdata percent -i=./_coverage/ -o $(PROJECT_NAME).coverprofile
-	@$(RM) -r ./_coverage
 
 clean:
 	@$(RM) -r ./_coverage

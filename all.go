@@ -1,4 +1,4 @@
-//go:build storage_all || !(storage_boltdb || storage_fs || storage_badger || storage_sqlite)
+//go:build storage_all || !(storage_boltdb || storage_fs || storage_badger || storage_sqlite || storage_pg)
 
 package storage
 
@@ -7,6 +7,7 @@ import (
 	badger "github.com/go-ap/storage-badger"
 	boltdb "github.com/go-ap/storage-boltdb"
 	fs "github.com/go-ap/storage-fs"
+	pg "github.com/go-ap/storage-pg"
 	sqlite "github.com/go-ap/storage-sqlite"
 )
 
@@ -26,6 +27,8 @@ func New(initFns ...InitFn) (FullStorage, error) {
 		return getSqliteStorage(opt)
 	case FS:
 		return getFsStorage(opt)
+	case Postgres:
+		return getPostgresStorage(opt)
 	}
 	return nil, errors.NotImplementedf("Invalid storage type %s", opt.Storage)
 }
@@ -88,6 +91,12 @@ func Bootstrap(initFns ...InitFn) error {
 			return err
 		}
 		return sqlite.Bootstrap(conf)
+	case Postgres:
+		conf, err := getPostgresConfig(opt)
+		if err != nil {
+			return err
+		}
+		return pg.Bootstrap(conf)
 	case FS:
 		conf, err := getFsConfig(opt)
 		if err != nil {

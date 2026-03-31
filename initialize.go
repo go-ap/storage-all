@@ -6,6 +6,7 @@ import (
 	"github.com/go-ap/storage-badger"
 	"github.com/go-ap/storage-boltdb"
 	"github.com/go-ap/storage-fs"
+	pg "github.com/go-ap/storage-pg"
 	"github.com/go-ap/storage-sqlite"
 )
 
@@ -27,7 +28,7 @@ const (
 	Badger = Type("badger")
 	Sqlite = Type("sqlite")
 
-	//Postgres = Type("postgres")
+	Postgres = Type("postgres")
 )
 
 type InitFn func(t *options) error
@@ -177,6 +178,33 @@ func getFsStorage(opt options) (FullStorage, error) {
 		return nil, err
 	}
 	db, err := fs.New(conf)
+	if err != nil {
+		return nil, err
+	}
+	return db, nil
+}
+
+func getPostgresConfig(opt options) (pg.Config, error) {
+	opt.Storage = Postgres
+	l := opt.Logger
+	if l != nil {
+		l = l.WithContext(lw.Ctx{"dsn": opt.StoragePath, "storage": opt.Storage})
+	}
+	conf, err := pg.ParseConfig(opt.StoragePath)
+	if err != nil {
+		return pg.Config{}, err
+	}
+	conf.LogFn = l.Debugf
+	conf.ErrFn = l.Warnf
+	return conf, nil
+}
+
+func getPostgresStorage(opt options) (FullStorage, error) {
+	conf, err := getPostgresConfig(opt)
+	if err != nil {
+		return nil, err
+	}
+	db, err := pg.New(conf)
 	if err != nil {
 		return nil, err
 	}

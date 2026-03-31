@@ -11,7 +11,13 @@ import (
 
 func initStorage(t *testing.T, typ Type) conformance.ActivityPubStorage {
 	l := lw.Dev(lw.SetOutput(t.Output()))
-	initFns := []InitFn{WithType(typ), WithPath(t.TempDir()), WithLogger(l)}
+	initFns := []InitFn{WithType(typ), WithLogger(l)}
+	if typ == Postgres {
+		conf := setupContainer(t)
+		initFns = append(initFns, WithPath(conf.DSN()))
+	} else {
+		initFns = append(initFns, WithPath(t.TempDir()))
+	}
 	if err := Bootstrap(initFns...); err != nil {
 		t.Fatalf("unable to bootstrap storage: %s", err)
 	}
@@ -22,30 +28,9 @@ func initStorage(t *testing.T, typ Type) conformance.ActivityPubStorage {
 	return storage
 }
 
-func Test_Conformance_FS(t *testing.T) {
+func Test_Conformance(t *testing.T) {
 	conformance.Suite(
 		conformance.TestActivityPub, conformance.TestMetadata,
 		conformance.TestKey, conformance.TestOAuth, conformance.TestPassword,
-	).Run(t, initStorage(t, FS))
-}
-
-func Test_Conformance_Sqlite(t *testing.T) {
-	conformance.Suite(
-		conformance.TestActivityPub, conformance.TestMetadata,
-		conformance.TestKey, conformance.TestOAuth, conformance.TestPassword,
-	).Run(t, initStorage(t, Sqlite))
-}
-
-func Test_Conformance_BoltDB(t *testing.T) {
-	conformance.Suite(
-		conformance.TestActivityPub, conformance.TestMetadata,
-		conformance.TestKey, conformance.TestOAuth, conformance.TestPassword,
-	).Run(t, initStorage(t, BoltDB))
-}
-
-func Test_Conformance_Badger(t *testing.T) {
-	conformance.Suite(
-		conformance.TestActivityPub, conformance.TestMetadata,
-		conformance.TestKey, conformance.TestOAuth, conformance.TestPassword,
-	).Run(t, initStorage(t, Badger))
+	).Run(t, initStorage(t, Default))
 }

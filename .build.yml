@@ -20,19 +20,22 @@ tasks:
       make bench
   - conformance-suite: |
       cd storage-all
-      go test -tags conformance -count=1 -json . | go run github.com/gotesttools/gotestfmt/v2/cmd/gotestfmt -showteststatus
+      go test -tags conformance -count=1 -json . | go tool gotestfmt -showteststatus
   - conformance-suite-fs: |
       cd storage-all
-      go test -tags 'conformance storage_fs' -count=1 -json . | go run github.com/gotesttools/gotestfmt/v2/cmd/gotestfmt -showteststatus
+      go test -tags 'conformance storage_fs' -count=1 -json . | go tool gotestfmt -showteststatus
   - conformance-suite-sqlite: |
       cd storage-all
-      go test -tags 'conformance storage_sqlite' -count=1 -json . | go run github.com/gotesttools/gotestfmt/v2/cmd/gotestfmt -showteststatus
+      go test -tags 'conformance storage_sqlite' -count=1 -json . | go tool gotestfmt -showteststatus
   - conformance-suite-boltdb: |
       cd storage-all
-      go test -tags 'conformance storage_boltdb' -count=1 -json . | go run github.com/gotesttools/gotestfmt/v2/cmd/gotestfmt -showteststatus
+      go test -tags 'conformance storage_boltdb' -count=1 -json . | go tool gotestfmt -showteststatus
   - conformance-suite-badger: |
       cd storage-all
-      go test -tags 'conformance storage_badger' -count=1 -json . | go run github.com/gotesttools/gotestfmt/v2/cmd/gotestfmt -showteststatus
+      go test -tags 'conformance storage_badger' -count=1 -json . | go tool gotestfmt -showteststatus
+  - conformance-suite-postgres: |
+      cd storage-all
+      go test -tags 'conformance storage_postgres' -count=1 -json . | go tool gotestfmt -showteststatus
   - coverage-upload: |
       cd storage-all
       git switch -C master origin/master

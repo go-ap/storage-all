@@ -1,4 +1,4 @@
-//go:build storage_all || !(storage_boltdb || storage_fs || storage_badger || storage_sqlite)
+//go:build storage_all || !(storage_boltdb || storage_fs || storage_badger || storage_sqlite || storage_pg)
 
 package storage
 
@@ -95,7 +95,13 @@ func populate(st Store, count int) error {
 
 func setup(b *testing.B, typ Type, count int) (FullStorage, error) {
 	tempDir := b.TempDir()
-	initFns := []InitFn{WithType(typ), WithPath(tempDir), UseIndex(true)}
+	initFns := []InitFn{WithType(typ), UseIndex(true)}
+	if typ == Postgres {
+		conf := setupContainer(b)
+		initFns = append(initFns, WithPath(conf.DSN()))
+	} else {
+		initFns = append(initFns, WithPath(tempDir))
+	}
 
 	err := Bootstrap(initFns...)
 	if err != nil {
@@ -175,6 +181,23 @@ func Benchmark_Load_Badger(b *testing.B) {
 
 func Benchmark_Load_FS(b *testing.B) {
 	st, err := _init(b, FS)
+	if err != nil {
+		b.Fatalf("unable to initialize storage %s", err)
+	}
+	defer st.Close()
+
+	b.ResetTimer()
+	for b.Loop() {
+		_, err = st.Load(collectionIRI, checks...)
+		if err != nil {
+			b.Errorf("unable to load from storage %s", err)
+		}
+	}
+}
+
+func Benchmark_Load_Postgres(b *testing.B) {
+
+	st, err := _init(b, Postgres)
 	if err != nil {
 		b.Fatalf("unable to initialize storage %s", err)
 	}
