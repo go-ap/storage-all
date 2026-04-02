@@ -6,13 +6,13 @@ require (
 	git.sr.ht/~mariusor/lw v0.0.0-20250325163623-1639f3fb0e0d
 	github.com/go-ap/activitypub v0.0.0-20260402093412-528d4eaf86a8
 	github.com/go-ap/errors v0.0.0-20260208110149-e1b309365966
-	github.com/go-ap/filters v0.0.0-20260402093843-285aba89aa03
-	github.com/go-ap/storage-badger v0.0.0-20260402100805-e2aa38f61789
-	github.com/go-ap/storage-boltdb v0.0.0-20260402101101-573d7e577c34
+	github.com/go-ap/filters v0.0.0-20260402142207-91104b25ea3d
+	github.com/go-ap/storage-badger v0.0.0-20260402154222-4ebc1b9a3829
+	github.com/go-ap/storage-boltdb v0.0.0-20260402154318-237dae6fdff8
 	github.com/go-ap/storage-conformance-suite v0.0.0-20260402080021-eac1c19dffa3
-	github.com/go-ap/storage-fs v0.0.0-20260402100738-ab4266cf0c0c
+	github.com/go-ap/storage-fs v0.0.0-20260402143641-33aa56c6049f
 	github.com/go-ap/storage-pg v0.0.0-20260402085213-7a063d5a4933
-	github.com/go-ap/storage-sqlite v0.0.0-20260402100746-568eb408db26
+	github.com/go-ap/storage-sqlite v0.0.0-20260402153720-0a2116d1114d
 	github.com/jackc/pgx/v5 v5.9.1
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 	github.com/testcontainers/testcontainers-go v0.41.0
