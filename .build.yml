@@ -1,12 +1,14 @@
-image: alpine/edge
+image: archlinux
 packages:
   - go
+  - podman
 sources:
   - https://git.sr.ht/~mariusor/storage-all
 secrets:
   - 231516a2-ca5d-42d0-8da1-b1d300485344
 environment:
   GO111MODULE: 'on'
+  DOCKER_HOST: unix:///run/user/1000/podman/podman.sock
 tasks:
   - tests: |
       cd storage-all
@@ -16,6 +18,15 @@ tasks:
       cd storage-all
       make coverage
   - bench: |
+      _user=$(id -un)
+
+      echo 'unqualified-search-registries = ["docker.io"]' | sudo tee /etc/containers/registries.conf.d/unq-search.conf
+      echo "${_user}:10000:65536" | sudo tee /etc/subuid
+      echo "${_user}:10000:65536" | sudo tee /etc/subgid
+
+      podman system migrate
+      systemctl --user enable --now podman.service podman.socket
+
       cd storage-all
       make bench
   - conformance-suite: |

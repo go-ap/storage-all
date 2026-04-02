@@ -46,6 +46,7 @@ type WriteStore interface {
 // CollectionStore allows operations on ActivityStreams collections
 type CollectionStore interface {
 	// Create creates the "col" collection.
+	// Deprecated
 	Create(vocab.CollectionInterface) (vocab.CollectionInterface, error)
 	// AddTo adds "it" element to the "col" collection.
 	AddTo(vocab.IRI, ...vocab.Item) error

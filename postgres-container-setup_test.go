@@ -22,13 +22,13 @@ func setupContainer(t testing.TB) pg.Config {
 	ctx := context.Background()
 
 	if dockerHost := os.Getenv("DOCKER_HOST"); dockerHost == "" {
-		t.Skipf("no DOCKER_HOST environment variable set to use for go-containers setup")
+		t.Skipf("no DOCKER_HOST environment variable set to use for testcontainers-go setup")
 		return pg.Config{}
 	}
 	l := noopLogger{}
 	pgContainer, err := postgres.Run(ctx, "postgres:18-alpine",
 		postgres.WithInitScripts(filepath.Join("images", "init-db.sql")),
-		postgres.WithDatabase("test-db"),
+		postgres.WithDatabase("storage"),
 		postgres.WithUsername("postgres"),
 		postgres.WithPassword("postgres"),
 		tc.WithLogger(l),
