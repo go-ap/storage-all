@@ -47,7 +47,8 @@ type WriteStore interface {
 type CollectionStore interface {
 	// Create creates the "col" collection.
 	// Deprecated
-	Create(vocab.CollectionInterface) (vocab.CollectionInterface, error)
+	//Create(vocab.CollectionInterface) (vocab.CollectionInterface, error)
+
 	// AddTo adds "it" element to the "col" collection.
 	AddTo(vocab.IRI, ...vocab.Item) error
 	// RemoveFrom removes "it" item from "col" collection
