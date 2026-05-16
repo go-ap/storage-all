@@ -7,12 +7,12 @@ require (
 	github.com/go-ap/activitypub v0.0.0-20260416122353-fb80985e153a
 	github.com/go-ap/errors v0.0.0-20260208110149-e1b309365966
 	github.com/go-ap/filters v0.0.0-20260416122840-724cb3c8974c
-	github.com/go-ap/storage-badger v0.0.0-20260504124513-40f1bbb2ac5d
-	github.com/go-ap/storage-boltdb v0.0.0-20260504124426-48723b158afd
-	github.com/go-ap/storage-conformance-suite v0.0.0-20260504122654-fc571e4bdb5a
-	github.com/go-ap/storage-fs v0.0.0-20260504122928-1f7f535d2f78
-	github.com/go-ap/storage-pg v0.0.0-20260504131311-d12b070d439f
-	github.com/go-ap/storage-sqlite v0.0.0-20260504123901-9aec95e03944
+	github.com/go-ap/storage-badger v0.0.0-20260516094449-c887fbacea7d
+	github.com/go-ap/storage-boltdb v0.0.0-20260516094401-2788f11a4305
+	github.com/go-ap/storage-conformance-suite v0.0.0-20260516093850-f84de69d19fe
+	github.com/go-ap/storage-fs v0.0.0-20260516094135-bcf7612ffaf8
+	github.com/go-ap/storage-pg v0.0.0-20260516094546-69b1342fdd91
+	github.com/go-ap/storage-sqlite v0.0.0-20260516094216-1fc07e53e46b
 	github.com/jackc/pgx/v5 v5.9.2
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 	github.com/testcontainers/testcontainers-go v0.41.0
@@ -114,23 +114,23 @@ require (
 	go.opentelemetry.io/otel v1.43.0 // indirect
 	go.opentelemetry.io/otel/metric v1.43.0 // indirect
 	go.opentelemetry.io/otel/trace v1.43.0 // indirect
-	golang.org/x/crypto v0.50.0 // indirect
-	golang.org/x/mod v0.34.0 // indirect
-	golang.org/x/net v0.53.0 // indirect
+	golang.org/x/crypto v0.51.0 // indirect
+	golang.org/x/mod v0.35.0 // indirect
+	golang.org/x/net v0.54.0 // indirect
 	golang.org/x/sync v0.20.0 // indirect
-	golang.org/x/sys v0.43.0 // indirect
-	golang.org/x/term v0.42.0 // indirect
-	golang.org/x/text v0.36.0 // indirect
-	golang.org/x/tools v0.43.0 // indirect
+	golang.org/x/sys v0.44.0 // indirect
+	golang.org/x/term v0.43.0 // indirect
+	golang.org/x/text v0.37.0 // indirect
+	golang.org/x/tools v0.44.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20260330182312-d5a96adf58d8 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20260311181403-84a4fc48630c // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/neurosnap/sentences.v1 v1.0.7 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	modernc.org/libc v1.72.2 // indirect
+	modernc.org/libc v1.72.3 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.11.0 // indirect
-	modernc.org/sqlite v1.50.0 // indirect
+	modernc.org/sqlite v1.50.1 // indirect
 	quamina.net/go/quamina/v2 v2.0.2 // indirect
 )
 

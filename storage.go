@@ -9,10 +9,8 @@ import (
 )
 
 type ClientSaver interface {
-	// UpdateClient updates the client (identified by its id) and replaces the values with the values of client.
-	UpdateClient(c osin.Client) error
-	// CreateClient stores the client in the database and returns an error, if something went wrong.
-	CreateClient(c osin.Client) error
+	// SaveClient stores the client in the database and returns an error, if something went wrong.
+	SaveClient(c osin.Client) error
 	// RemoveClient removes a client (identified by id) from the database. Returns an error if something went wrong.
 	RemoveClient(id string) error
 }
