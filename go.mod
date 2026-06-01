@@ -7,12 +7,12 @@ require (
 	github.com/go-ap/activitypub v0.0.0-20260416122353-fb80985e153a
 	github.com/go-ap/errors v0.0.0-20260208110149-e1b309365966
 	github.com/go-ap/filters v0.0.0-20260416122840-724cb3c8974c
-	github.com/go-ap/storage-badger v0.0.0-20260516094449-c887fbacea7d
+	github.com/go-ap/storage-badger v0.0.0-20260601105931-8f52a4d15e3f
 	github.com/go-ap/storage-boltdb v0.0.0-20260516094401-2788f11a4305
 	github.com/go-ap/storage-conformance-suite v0.0.0-20260516093850-f84de69d19fe
-	github.com/go-ap/storage-fs v0.0.0-20260516094135-bcf7612ffaf8
+	github.com/go-ap/storage-fs v0.0.0-20260601105744-896ed98c742c
 	github.com/go-ap/storage-pg v0.0.0-20260516094546-69b1342fdd91
-	github.com/go-ap/storage-sqlite v0.0.0-20260516094216-1fc07e53e46b
+	github.com/go-ap/storage-sqlite v0.0.0-20260601105830-4ff65d5d96ba
 	github.com/jackc/pgx/v5 v5.9.2
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 	github.com/testcontainers/testcontainers-go v0.41.0
@@ -52,9 +52,9 @@ require (
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/ebitengine/purego v0.10.0 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
-	github.com/go-ap/cache v0.0.0-20260416122450-ff51ff8e9ff6 // indirect
+	github.com/go-ap/cache v0.0.0-20260601105412-761bb369c090 // indirect
 	github.com/go-ap/jsonld v0.0.0-20251216162253-e38fa664ea77 // indirect
-	github.com/go-chi/chi/v5 v5.2.5 // indirect
+	github.com/go-chi/chi/v5 v5.3.0 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
@@ -62,6 +62,7 @@ require (
 	github.com/google/go-cmp v0.7.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gotesttools/gotestfmt/v2 v2.5.0 // indirect
+	github.com/hashicorp/golang-lru v1.0.2 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20240606120523-5a60cdf6a761 // indirect
 	github.com/jackc/puddle/v2 v2.2.2 // indirect
@@ -71,7 +72,7 @@ require (
 	github.com/lucasb-eyer/go-colorful v1.4.0 // indirect
 	github.com/lufia/plan9stats v0.0.0-20211012122336-39d0f177ccd0 // indirect
 	github.com/magiconair/properties v1.8.10 // indirect
-	github.com/mattn/go-colorable v0.1.14 // indirect
+	github.com/mattn/go-colorable v0.1.15 // indirect
 	github.com/mattn/go-isatty v0.0.22 // indirect
 	github.com/mattn/go-runewidth v0.0.21 // indirect
 	github.com/mattn/go-sqlite3 v1.14.44 // indirect
@@ -111,14 +112,14 @@ require (
 	go.etcd.io/bbolt v1.4.3 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.49.0 // indirect
-	go.opentelemetry.io/otel v1.43.0 // indirect
-	go.opentelemetry.io/otel/metric v1.43.0 // indirect
-	go.opentelemetry.io/otel/trace v1.43.0 // indirect
-	golang.org/x/crypto v0.51.0 // indirect
+	go.opentelemetry.io/otel v1.44.0 // indirect
+	go.opentelemetry.io/otel/metric v1.44.0 // indirect
+	go.opentelemetry.io/otel/trace v1.44.0 // indirect
+	golang.org/x/crypto v0.52.0 // indirect
 	golang.org/x/mod v0.35.0 // indirect
-	golang.org/x/net v0.54.0 // indirect
+	golang.org/x/net v0.55.0 // indirect
 	golang.org/x/sync v0.20.0 // indirect
-	golang.org/x/sys v0.44.0 // indirect
+	golang.org/x/sys v0.45.0 // indirect
 	golang.org/x/term v0.43.0 // indirect
 	golang.org/x/text v0.37.0 // indirect
 	golang.org/x/tools v0.44.0 // indirect
@@ -127,10 +128,10 @@ require (
 	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/neurosnap/sentences.v1 v1.0.7 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	modernc.org/libc v1.72.3 // indirect
+	modernc.org/libc v1.72.5 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.11.0 // indirect
-	modernc.org/sqlite v1.50.1 // indirect
+	modernc.org/sqlite v1.51.0 // indirect
 	quamina.net/go/quamina/v2 v2.0.2 // indirect
 )
 
