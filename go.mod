@@ -4,15 +4,15 @@ go 1.25.0
 
 require (
 	git.sr.ht/~mariusor/lw v0.0.0-20250325163623-1639f3fb0e0d
-	github.com/go-ap/activitypub v0.0.0-20260602080815-739274c2fcce
-	github.com/go-ap/errors v0.0.0-20260208110149-e1b309365966
-	github.com/go-ap/filters v0.0.0-20260602081319-5ed1fa02cd11
-	github.com/go-ap/storage-badger v0.0.0-20260602082023-6c687d50c106
-	github.com/go-ap/storage-boltdb v0.0.0-20260602082104-7ce0520fd659
-	github.com/go-ap/storage-conformance-suite v0.0.0-20260516093850-f84de69d19fe
-	github.com/go-ap/storage-fs v0.0.0-20260602081632-8cebe137c0ec
-	github.com/go-ap/storage-pg v0.0.0-20260602082217-0a1b2cdffe68
-	github.com/go-ap/storage-sqlite v0.0.0-20260602081717-c85cac18f812
+	github.com/go-ap/activitypub v0.0.0-20260607141243-4f8aa4005e65
+	github.com/go-ap/errors v0.0.0-20260607141156-afed270859b6
+	github.com/go-ap/filters v0.0.0-20260607141701-131281f883a2
+	github.com/go-ap/storage-badger v0.0.0-20260607143812-c8e1da0a5729
+	github.com/go-ap/storage-boltdb v0.0.0-20260607144013-66c998cda8bd
+	github.com/go-ap/storage-conformance-suite v0.0.0-20260607142507-0dc986eef59e
+	github.com/go-ap/storage-fs v0.0.0-20260607142707-cbd5ea08c8ae
+	github.com/go-ap/storage-pg v0.0.0-20260607144135-f16654e4717a
+	github.com/go-ap/storage-sqlite v0.0.0-20260607143523-6bc3713ea6d6
 	github.com/jackc/pgx/v5 v5.10.0
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 	github.com/testcontainers/testcontainers-go v0.41.0
@@ -27,7 +27,7 @@ require (
 	github.com/Microsoft/go-winio v0.6.2 // indirect
 	github.com/RoaringBitmap/roaring v1.9.4 // indirect
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
-	github.com/bits-and-blooms/bitset v1.24.4 // indirect
+	github.com/bits-and-blooms/bitset v1.24.5 // indirect
 	github.com/cenkalti/backoff/v4 v4.3.0 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/charmbracelet/colorprofile v0.4.3 // indirect
@@ -52,8 +52,8 @@ require (
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/ebitengine/purego v0.10.0 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
-	github.com/go-ap/cache v0.0.0-20260602080918-ccf86cfda6bb // indirect
-	github.com/go-ap/jsonld v0.0.0-20251216162253-e38fa664ea77 // indirect
+	github.com/go-ap/cache v0.0.0-20260607141501-80f9206d91a9 // indirect
+	github.com/go-ap/jsonld v0.0.0-20260607140920-737b40e0ca38 // indirect
 	github.com/go-chi/chi/v5 v5.3.0 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
@@ -75,7 +75,7 @@ require (
 	github.com/mattn/go-colorable v0.1.15 // indirect
 	github.com/mattn/go-isatty v0.0.22 // indirect
 	github.com/mattn/go-runewidth v0.0.21 // indirect
-	github.com/mattn/go-sqlite3 v1.14.44 // indirect
+	github.com/mattn/go-sqlite3 v1.14.45 // indirect
 	github.com/mattn/goveralls v0.0.12 // indirect
 	github.com/mfridman/tparse v0.18.0 // indirect
 	github.com/moby/docker-image-spec v1.3.1 // indirect
@@ -131,7 +131,7 @@ require (
 	modernc.org/libc v1.72.5 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.11.0 // indirect
-	modernc.org/sqlite v1.51.0 // indirect
+	modernc.org/sqlite v1.52.0 // indirect
 	quamina.net/go/quamina/v2 v2.0.2 // indirect
 )
 

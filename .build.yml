@@ -2,6 +2,7 @@ image: archlinux
 packages:
   - go
   - podman
+  - golangci-lint
 sources:
   - https://git.sr.ht/~mariusor/storage-all
 secrets:
@@ -10,6 +11,9 @@ environment:
   GO111MODULE: 'on'
   DOCKER_HOST: unix:///run/user/1000/podman/podman.sock
 tasks:
+  - fmt: |
+      cd storage-all
+      test -z $(gofmt -l .)
   - tests: |
       cd storage-all
       make test
@@ -52,3 +56,6 @@ tasks:
       git switch -C master origin/master
       make coverage
       go tool goveralls -flagname unit-tests -service=${CI_NAME} -coverprofile storage-all.coverprofile -repotokenfile ~/.coveralls.tok
+  - lint: |
+      cd storage-all
+      golangci-lint run || true
