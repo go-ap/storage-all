@@ -6,7 +6,8 @@ packages:
 sources:
   - https://git.sr.ht/~mariusor/storage-all
 secrets:
-  - 231516a2-ca5d-42d0-8da1-b1d300485344
+- 231516a2-ca5d-42d0-8da1-b1d300485344
+- 3dcea276-38d6-4a7e-85e5-20cbc903e1ea
 environment:
   GO111MODULE: 'on'
   DOCKER_HOST: unix:///run/user/1000/podman/podman.sock
@@ -21,6 +22,14 @@ tasks:
       set -a +x
       cd storage-all
       make coverage
+  - push_to_github: |
+      test "${BUILD_SUBMITTER}" != "git.sr.ht" && complete-build
+      set -a +x
+      ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+
+      cd storage-all
+      git remote add hub git@github.com:go-ap/storage-all
+      git push hub --force --all
   - bench: |
       _user=$(id -un)
 
