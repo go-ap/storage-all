@@ -56,7 +56,7 @@ func (o options) BaseStoragePath() (string, error) {
 		return "", err
 	}
 	if !fi.IsDir() {
-		return "", errors.NotValidf("path %s is invalid for storage", o.StoragePath)
+		return "", errors.BadRequestf("path %s is invalid for storage", o.StoragePath)
 	}
 	return o.StoragePath, nil
 }
