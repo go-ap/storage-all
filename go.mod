@@ -6,13 +6,13 @@ require (
 	git.sr.ht/~mariusor/lw v0.0.0-20250325163623-1639f3fb0e0d
 	github.com/go-ap/activitypub v0.0.0-20260701132640-13f25467c431
 	github.com/go-ap/errors v0.0.0-20260701132509-92e5e4fd6394
-	github.com/go-ap/filters v0.0.0-20260701132827-4ad866f2a41d
-	github.com/go-ap/storage-badger v0.0.0-20260701133418-ed201252e077
-	github.com/go-ap/storage-boltdb v0.0.0-20260701133355-1aabc0c30181
-	github.com/go-ap/storage-conformance-suite v0.0.0-20260701133105-6fdc36975811
-	github.com/go-ap/storage-fs v0.0.0-20260701133220-4099a6c265f9
-	github.com/go-ap/storage-pg v0.0.0-20260701133550-90f7dbb14103
-	github.com/go-ap/storage-sqlite v0.0.0-20260714130234-01ea8e7e1172
+	github.com/go-ap/filters v0.0.0-20260716084456-328354b4a4bb
+	github.com/go-ap/storage-badger v0.0.0-20260716091549-bf354f1b58fb
+	github.com/go-ap/storage-boltdb v0.0.0-20260716091301-865094d228bb
+	github.com/go-ap/storage-conformance-suite v0.0.0-20260716092134-2982c3f0647e
+	github.com/go-ap/storage-fs v0.0.0-20260716091017-70e69cdde4cc
+	github.com/go-ap/storage-pg v0.0.0-20260716092046-1e8882cf7d3f
+	github.com/go-ap/storage-sqlite v0.0.0-20260716091744-44096872da12
 	github.com/jackc/pgx/v5 v5.10.0
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 	github.com/testcontainers/testcontainers-go v0.41.0
@@ -73,7 +73,7 @@ require (
 	github.com/lufia/plan9stats v0.0.0-20211012122336-39d0f177ccd0 // indirect
 	github.com/magiconair/properties v1.8.10 // indirect
 	github.com/mattn/go-colorable v0.1.15 // indirect
-	github.com/mattn/go-isatty v0.0.22 // indirect
+	github.com/mattn/go-isatty v0.0.23 // indirect
 	github.com/mattn/go-runewidth v0.0.21 // indirect
 	github.com/mattn/go-sqlite3 v1.14.48 // indirect
 	github.com/mattn/goveralls v0.0.12 // indirect
@@ -130,7 +130,7 @@ require (
 	modernc.org/libc v1.74.1 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.11.0 // indirect
-	modernc.org/sqlite v1.53.0 // indirect
+	modernc.org/sqlite v1.54.0 // indirect
 	quamina.net/go/quamina/v2 v2.0.2 // indirect
 )
 
