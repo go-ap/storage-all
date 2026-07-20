@@ -4,15 +4,15 @@ go 1.25.0
 
 require (
 	git.sr.ht/~mariusor/lw v0.0.0-20250325163623-1639f3fb0e0d
-	github.com/go-ap/activitypub v0.0.0-20260701132640-13f25467c431
+	github.com/go-ap/activitypub v0.0.0-20260720130625-e2c76676dde7
 	github.com/go-ap/errors v0.0.0-20260701132509-92e5e4fd6394
-	github.com/go-ap/filters v0.0.0-20260716110857-13bff629eba4
-	github.com/go-ap/storage-badger v0.0.0-20260716113120-fb9dbdc295c3
-	github.com/go-ap/storage-boltdb v0.0.0-20260716112902-fda877e9ed69
-	github.com/go-ap/storage-conformance-suite v0.0.0-20260716111426-cae810f0c19d
-	github.com/go-ap/storage-fs v0.0.0-20260716112713-310e21fe66f7
-	github.com/go-ap/storage-pg v0.0.0-20260716113514-ab3668b1f971
-	github.com/go-ap/storage-sqlite v0.0.0-20260716113311-0c7f0c9dc235
+	github.com/go-ap/filters v0.0.0-20260720130825-55f4e622346f
+	github.com/go-ap/storage-badger v0.0.0-20260720133651-9a77f79975eb
+	github.com/go-ap/storage-boltdb v0.0.0-20260720133541-b3b4068d37ec
+	github.com/go-ap/storage-conformance-suite v0.0.0-20260720133242-626f09d14d19
+	github.com/go-ap/storage-fs v0.0.0-20260720133415-df574ee684e8
+	github.com/go-ap/storage-pg v0.0.0-20260720133924-78f126369345
+	github.com/go-ap/storage-sqlite v0.0.0-20260720133505-c65c4f80114e
 	github.com/jackc/pgx/v5 v5.10.0
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 	github.com/testcontainers/testcontainers-go v0.41.0
@@ -52,7 +52,7 @@ require (
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/ebitengine/purego v0.10.0 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
-	github.com/go-ap/cache v0.0.0-20260701132808-71a22e0f7796 // indirect
+	github.com/go-ap/cache v0.0.0-20260720130756-5966f822532a // indirect
 	github.com/go-ap/jsonld v0.0.0-20260607140920-737b40e0ca38 // indirect
 	github.com/go-chi/chi/v5 v5.3.1 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
@@ -67,7 +67,7 @@ require (
 	github.com/jackc/pgservicefile v0.0.0-20240606120523-5a60cdf6a761 // indirect
 	github.com/jackc/puddle/v2 v2.2.2 // indirect
 	github.com/jdkato/prose v1.2.1 // indirect
-	github.com/klauspost/compress v1.19.0 // indirect
+	github.com/klauspost/compress v1.19.1 // indirect
 	github.com/leporo/sqlf v1.4.0 // indirect
 	github.com/lucasb-eyer/go-colorful v1.4.0 // indirect
 	github.com/lufia/plan9stats v0.0.0-20211012122336-39d0f177ccd0 // indirect
@@ -127,7 +127,7 @@ require (
 	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/neurosnap/sentences.v1 v1.0.7 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	modernc.org/libc v1.74.1 // indirect
+	modernc.org/libc v1.74.3 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.11.0 // indirect
 	modernc.org/sqlite v1.54.0 // indirect
