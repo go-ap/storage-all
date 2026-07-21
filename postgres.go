@@ -1,4 +1,4 @@
-//go:build storage_pg
+//go:build storage_postgres
 
 package storage
 

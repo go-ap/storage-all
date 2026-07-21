@@ -55,7 +55,7 @@ require (
 	github.com/go-ap/cache v0.0.0-20260720130756-5966f822532a // indirect
 	github.com/go-ap/jsonld v0.0.0-20260607140920-737b40e0ca38 // indirect
 	github.com/go-chi/chi/v5 v5.3.1 // indirect
-	github.com/go-logr/logr v1.4.3 // indirect
+	github.com/go-logr/logr v1.4.4 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
 	github.com/google/flatbuffers v25.12.19+incompatible // indirect

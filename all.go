@@ -1,4 +1,4 @@
-//go:build storage_all || !(storage_boltdb || storage_fs || storage_badger || storage_sqlite || storage_pg)
+//go:build storage_all || !(storage_boltdb || storage_fs || storage_badger || storage_sqlite || storage_postgres)
 
 package storage
 
