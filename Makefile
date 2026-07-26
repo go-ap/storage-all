@@ -7,6 +7,7 @@ MAKEFLAGS += --no-builtin-rules
 
 GO ?= go
 TEST := $(GO) test
+TAGS ?=
 TEST_FLAGS ?= -timeout 20s -count=1 -tags '$(TAGS)'
 TEST_TARGET ?= .
 GO111MODULE = on
