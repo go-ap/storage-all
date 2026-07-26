@@ -15,6 +15,13 @@ tasks:
   - fmt: |
       cd storage-all
       test -z $(gofmt -l .)
+  - setup: |
+      echo 'unqualified-search-registries = ["docker.io"]' | sudo tee /etc/containers/registries.conf.d/unq-search.conf
+      echo "${_user}:10000:65536" | sudo tee /etc/subuid
+      echo "${_user}:10000:65536" | sudo tee /etc/subgid
+
+      podman system migrate
+      systemctl --user enable --now podman.service podman.socket
   - tests: |
       cd storage-all
       make test
@@ -32,14 +39,6 @@ tasks:
       git push hub --force --all
   - bench: |
       _user=$(id -un)
-
-      echo 'unqualified-search-registries = ["docker.io"]' | sudo tee /etc/containers/registries.conf.d/unq-search.conf
-      echo "${_user}:10000:65536" | sudo tee /etc/subuid
-      echo "${_user}:10000:65536" | sudo tee /etc/subgid
-
-      podman system migrate
-      systemctl --user enable --now podman.service podman.socket
-
       cd storage-all
       make bench
   - conformance-suite: |
