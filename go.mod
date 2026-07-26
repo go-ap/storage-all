@@ -4,14 +4,14 @@ go 1.25.0
 
 require (
 	git.sr.ht/~mariusor/lw v0.0.0-20250325163623-1639f3fb0e0d
-	github.com/go-ap/activitypub v0.0.0-20260720130625-e2c76676dde7
+	github.com/go-ap/activitypub v0.0.0-20260726121542-1f5299646d89
 	github.com/go-ap/errors v0.0.0-20260701132509-92e5e4fd6394
-	github.com/go-ap/filters v0.0.0-20260720130825-55f4e622346f
-	github.com/go-ap/storage-badger v0.0.0-20260720133651-9a77f79975eb
-	github.com/go-ap/storage-boltdb v0.0.0-20260720133541-b3b4068d37ec
+	github.com/go-ap/filters v0.0.0-20260726122206-0a4b91e3b913
+	github.com/go-ap/storage-badger v0.0.0-20260726124421-9705cc7345ff
+	github.com/go-ap/storage-boltdb v0.0.0-20260726124340-91648a8b961b
 	github.com/go-ap/storage-conformance-suite v0.0.0-20260720133242-626f09d14d19
-	github.com/go-ap/storage-fs v0.0.0-20260720133415-df574ee684e8
-	github.com/go-ap/storage-pg v0.0.0-20260720133924-78f126369345
+	github.com/go-ap/storage-fs v0.0.0-20260726123703-293e7bbb54c7
+	github.com/go-ap/storage-pg v0.0.0-20260726124821-2ff5ef1d465c
 	github.com/go-ap/storage-sqlite v0.0.0-20260720133505-c65c4f80114e
 	github.com/jackc/pgx/v5 v5.10.0
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
@@ -43,7 +43,7 @@ require (
 	github.com/containerd/platforms v0.2.1 // indirect
 	github.com/cpuguy83/dockercfg v0.3.2 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/dgraph-io/badger/v4 v4.9.4 // indirect
+	github.com/dgraph-io/badger/v4 v4.9.5 // indirect
 	github.com/dgraph-io/ristretto/v2 v2.4.2 // indirect
 	github.com/distribution/reference v0.6.0 // indirect
 	github.com/docker/docker v28.5.2+incompatible // indirect
@@ -52,7 +52,7 @@ require (
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/ebitengine/purego v0.10.0 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
-	github.com/go-ap/cache v0.0.0-20260720130756-5966f822532a // indirect
+	github.com/go-ap/cache v0.0.0-20260726121806-b16fde52ceaa // indirect
 	github.com/go-ap/jsonld v0.0.0-20260607140920-737b40e0ca38 // indirect
 	github.com/go-chi/chi/v5 v5.3.1 // indirect
 	github.com/go-logr/logr v1.4.4 // indirect
@@ -73,7 +73,7 @@ require (
 	github.com/lufia/plan9stats v0.0.0-20211012122336-39d0f177ccd0 // indirect
 	github.com/magiconair/properties v1.8.10 // indirect
 	github.com/mattn/go-colorable v0.1.15 // indirect
-	github.com/mattn/go-isatty v0.0.23 // indirect
+	github.com/mattn/go-isatty v0.0.24 // indirect
 	github.com/mattn/go-runewidth v0.0.21 // indirect
 	github.com/mattn/go-sqlite3 v1.14.48 // indirect
 	github.com/mattn/goveralls v0.0.12 // indirect
