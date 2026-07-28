@@ -4,15 +4,15 @@ go 1.25.0
 
 require (
 	git.sr.ht/~mariusor/lw v0.0.0-20250325163623-1639f3fb0e0d
-	github.com/go-ap/activitypub v0.0.0-20260726121542-1f5299646d89
+	github.com/go-ap/activitypub v0.0.0-20260728101245-29ad8d823d52
 	github.com/go-ap/errors v0.0.0-20260701132509-92e5e4fd6394
-	github.com/go-ap/filters v0.0.0-20260726122206-0a4b91e3b913
-	github.com/go-ap/storage-badger v0.0.0-20260726124421-9705cc7345ff
-	github.com/go-ap/storage-boltdb v0.0.0-20260726124340-91648a8b961b
-	github.com/go-ap/storage-conformance-suite v0.0.0-20260720133242-626f09d14d19
-	github.com/go-ap/storage-fs v0.0.0-20260726123703-293e7bbb54c7
-	github.com/go-ap/storage-pg v0.0.0-20260726124821-2ff5ef1d465c
-	github.com/go-ap/storage-sqlite v0.0.0-20260720133505-c65c4f80114e
+	github.com/go-ap/filters v0.0.0-20260728141602-d17cbb6bba25
+	github.com/go-ap/storage-badger v0.0.0-20260728142510-b3103c00bd59
+	github.com/go-ap/storage-boltdb v0.0.0-20260728142339-77d0695fb2ef
+	github.com/go-ap/storage-conformance-suite v0.0.0-20260728142034-448e8dbf5d39
+	github.com/go-ap/storage-fs v0.0.0-20260728142131-a61b312a24c5
+	github.com/go-ap/storage-pg v0.0.0-20260728142831-47508c2438c8
+	github.com/go-ap/storage-sqlite v0.0.0-20260728142219-65e02cc71a95
 	github.com/jackc/pgx/v5 v5.10.0
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 	github.com/testcontainers/testcontainers-go v0.41.0
@@ -52,7 +52,7 @@ require (
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/ebitengine/purego v0.10.0 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
-	github.com/go-ap/cache v0.0.0-20260726121806-b16fde52ceaa // indirect
+	github.com/go-ap/cache v0.0.0-20260728141544-0135f166141c // indirect
 	github.com/go-ap/jsonld v0.0.0-20260607140920-737b40e0ca38 // indirect
 	github.com/go-chi/chi/v5 v5.3.1 // indirect
 	github.com/go-logr/logr v1.4.4 // indirect
@@ -127,7 +127,7 @@ require (
 	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/neurosnap/sentences.v1 v1.0.7 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	modernc.org/libc v1.74.3 // indirect
+	modernc.org/libc v1.74.4 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.11.0 // indirect
 	modernc.org/sqlite v1.54.0 // indirect
