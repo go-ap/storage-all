@@ -74,7 +74,7 @@ func populate(st Store, count int) error {
 	var success int
 	var failure int
 
-	items := gen.RandomItemCollection(count)
+	items := gen.RandomItemCollection(count, gen.Root)
 	for _, it := range items {
 		if _, err := st.Save(it); err != nil {
 			failure++
