@@ -1,6 +1,8 @@
 package storage
 
 import (
+	"path/filepath"
+
 	"git.sr.ht/~mariusor/lw"
 	"github.com/go-ap/errors"
 	"github.com/go-ap/storage-badger"
@@ -102,6 +104,11 @@ func getBadgerConfig(opt options) (badger.Config, error) {
 	if err != nil {
 		return badger.Config{}, err
 	}
+	// NOTE(marius): the badger on disk storage repository is a directory,
+	// so we need to append another element to the path in order for it to
+	// not clobber anything from the BaseStoragePath.
+	// This might end up with redundant hostname, if the original path included the %host% variable.
+	path = filepath.Join(path, opt.Hostname)
 	l := opt.Logger
 	if l != nil {
 		l = l.WithContext(lw.Ctx{"path": path, "storage": opt.Storage})
