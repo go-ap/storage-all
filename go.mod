@@ -6,13 +6,13 @@ require (
 	git.sr.ht/~mariusor/lw v0.0.0-20250325163623-1639f3fb0e0d
 	github.com/go-ap/activitypub v0.0.0-20260803135430-cb9978486dff
 	github.com/go-ap/errors v0.0.0-20260701132509-92e5e4fd6394
-	github.com/go-ap/filters v0.0.0-20260803142253-7b61bca1c1d0
-	github.com/go-ap/storage-badger v0.0.0-20260803163352-5c17a4bcf20b
-	github.com/go-ap/storage-boltdb v0.0.0-20260803165706-648c8e5c8231
+	github.com/go-ap/filters v0.0.0-20260803180515-dca600d1a418
+	github.com/go-ap/storage-badger v0.0.0-20260803181029-26616fddba4e
+	github.com/go-ap/storage-boltdb v0.0.0-20260803181216-171aab2709d7
 	github.com/go-ap/storage-conformance-suite v0.0.0-20260803143156-1d6f11dd8e84
-	github.com/go-ap/storage-fs v0.0.0-20260803143919-3e602daeb883
-	github.com/go-ap/storage-pg v0.0.0-20260803144327-0997b849f200
-	github.com/go-ap/storage-sqlite v0.0.0-20260803144005-9c94c2a51b6a
+	github.com/go-ap/storage-fs v0.0.0-20260803180900-b2a8927022c2
+	github.com/go-ap/storage-pg v0.0.0-20260803181345-256534129558
+	github.com/go-ap/storage-sqlite v0.0.0-20260803180949-8e1fc73fafa0
 	github.com/jackc/pgx/v5 v5.10.0
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 	github.com/testcontainers/testcontainers-go v0.41.0
