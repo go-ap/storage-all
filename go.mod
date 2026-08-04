@@ -7,7 +7,7 @@ require (
 	github.com/go-ap/activitypub v0.0.0-20260803135430-cb9978486dff
 	github.com/go-ap/errors v0.0.0-20260701132509-92e5e4fd6394
 	github.com/go-ap/filters v0.0.0-20260803180515-dca600d1a418
-	github.com/go-ap/storage-badger v0.0.0-20260804081855-f066127d890e
+	github.com/go-ap/storage-badger v0.0.0-20260804130140-338427bee5b3
 	github.com/go-ap/storage-boltdb v0.0.0-20260803181216-171aab2709d7
 	github.com/go-ap/storage-conformance-suite v0.0.0-20260803143156-1d6f11dd8e84
 	github.com/go-ap/storage-fs v0.0.0-20260803180900-b2a8927022c2
