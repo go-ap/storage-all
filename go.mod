@@ -12,7 +12,7 @@ require (
 	github.com/go-ap/storage-conformance-suite v0.0.0-20260803143156-1d6f11dd8e84
 	github.com/go-ap/storage-fs v0.0.0-20260803180900-b2a8927022c2
 	github.com/go-ap/storage-pg v0.0.0-20260803181345-256534129558
-	github.com/go-ap/storage-sqlite v0.0.0-20260804081527-85e0fe76b5b2
+	github.com/go-ap/storage-sqlite v0.0.0-20260805135402-5ae620645bb7
 	github.com/jackc/pgx/v5 v5.10.0
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 	github.com/testcontainers/testcontainers-go v0.41.0
@@ -43,7 +43,7 @@ require (
 	github.com/containerd/platforms v0.2.1 // indirect
 	github.com/cpuguy83/dockercfg v0.3.2 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/dgraph-io/badger/v4 v4.9.5 // indirect
+	github.com/dgraph-io/badger/v4 v4.9.6 // indirect
 	github.com/dgraph-io/ristretto/v2 v2.4.2 // indirect
 	github.com/distribution/reference v0.6.0 // indirect
 	github.com/docker/docker v28.5.2+incompatible // indirect
