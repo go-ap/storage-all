@@ -7,12 +7,12 @@ require (
 	github.com/go-ap/activitypub v0.0.0-20260803135430-cb9978486dff
 	github.com/go-ap/errors v0.0.0-20260701132509-92e5e4fd6394
 	github.com/go-ap/filters v0.0.0-20260803180515-dca600d1a418
-	github.com/go-ap/storage-badger v0.0.0-20260805145001-713155192813
-	github.com/go-ap/storage-boltdb v0.0.0-20260803181216-171aab2709d7
-	github.com/go-ap/storage-conformance-suite v0.0.0-20260803143156-1d6f11dd8e84
-	github.com/go-ap/storage-fs v0.0.0-20260803180900-b2a8927022c2
-	github.com/go-ap/storage-pg v0.0.0-20260803181345-256534129558
-	github.com/go-ap/storage-sqlite v0.0.0-20260805135402-5ae620645bb7
+	github.com/go-ap/storage-badger v0.0.0-20260809084018-a8c313fad7d4
+	github.com/go-ap/storage-boltdb v0.0.0-20260809083936-ff9f18c58b61
+	github.com/go-ap/storage-conformance-suite v0.0.0-20260809080530-b3fe960f424f
+	github.com/go-ap/storage-fs v0.0.0-20260809083728-e5c3ab207b31
+	github.com/go-ap/storage-pg v0.0.0-20260809085100-76702885ca90
+	github.com/go-ap/storage-sqlite v0.0.0-20260809083831-7ef47529a8e2
 	github.com/jackc/pgx/v5 v5.10.0
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 	github.com/testcontainers/testcontainers-go v0.41.0
@@ -67,7 +67,7 @@ require (
 	github.com/jackc/pgservicefile v0.0.0-20240606120523-5a60cdf6a761 // indirect
 	github.com/jackc/puddle/v2 v2.2.2 // indirect
 	github.com/jdkato/prose v1.2.1 // indirect
-	github.com/klauspost/compress v1.19.1 // indirect
+	github.com/klauspost/compress v1.19.2 // indirect
 	github.com/leporo/sqlf v1.4.0 // indirect
 	github.com/lucasb-eyer/go-colorful v1.4.1 // indirect
 	github.com/lufia/plan9stats v0.0.0-20211012122336-39d0f177ccd0 // indirect
@@ -127,9 +127,9 @@ require (
 	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/neurosnap/sentences.v1 v1.0.7 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	modernc.org/libc v1.74.4 // indirect
+	modernc.org/libc v1.75.3 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
-	modernc.org/memory v1.11.0 // indirect
+	modernc.org/memory v1.12.0 // indirect
 	modernc.org/sqlite v1.56.0 // indirect
 	quamina.net/go/quamina/v2 v2.0.2 // indirect
 )
