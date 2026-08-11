@@ -4,15 +4,15 @@ go 1.25.0
 
 require (
 	git.sr.ht/~mariusor/lw v0.0.0-20250325163623-1639f3fb0e0d
-	github.com/go-ap/activitypub v0.0.0-20260803135430-cb9978486dff
+	github.com/go-ap/activitypub v0.0.0-20260811143456-e874d5d2264f
 	github.com/go-ap/errors v0.0.0-20260701132509-92e5e4fd6394
-	github.com/go-ap/filters v0.0.0-20260803180515-dca600d1a418
-	github.com/go-ap/storage-badger v0.0.0-20260809084018-a8c313fad7d4
-	github.com/go-ap/storage-boltdb v0.0.0-20260809083936-ff9f18c58b61
-	github.com/go-ap/storage-conformance-suite v0.0.0-20260809080530-b3fe960f424f
-	github.com/go-ap/storage-fs v0.0.0-20260809083728-e5c3ab207b31
-	github.com/go-ap/storage-pg v0.0.0-20260809085100-76702885ca90
-	github.com/go-ap/storage-sqlite v0.0.0-20260809083831-7ef47529a8e2
+	github.com/go-ap/filters v0.0.0-20260811143713-b24d703996ba
+	github.com/go-ap/storage-badger v0.0.0-20260811144852-5c8ede446cc2
+	github.com/go-ap/storage-boltdb v0.0.0-20260811144908-3cc123deb778
+	github.com/go-ap/storage-conformance-suite v0.0.0-20260811144223-2bd56782e86a
+	github.com/go-ap/storage-fs v0.0.0-20260811144510-0d553e50b891
+	github.com/go-ap/storage-pg v0.0.0-20260811145046-c3aa5fe59887
+	github.com/go-ap/storage-sqlite v0.0.0-20260811144807-a62d8457a814
 	github.com/jackc/pgx/v5 v5.10.0
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 	github.com/testcontainers/testcontainers-go v0.41.0
@@ -52,7 +52,7 @@ require (
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/ebitengine/purego v0.10.0 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
-	github.com/go-ap/cache v0.0.0-20260803141141-2249e83e921d // indirect
+	github.com/go-ap/cache v0.0.0-20260811143546-9a4c231043c6 // indirect
 	github.com/go-ap/jsonld v0.0.0-20260607140920-737b40e0ca38 // indirect
 	github.com/go-chi/chi/v5 v5.3.1 // indirect
 	github.com/go-logr/logr v1.4.4 // indirect
@@ -124,7 +124,7 @@ require (
 	golang.org/x/tools v0.48.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20260330182312-d5a96adf58d8 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20260311181403-84a4fc48630c // indirect
-	google.golang.org/protobuf v1.36.11 // indirect
+	google.golang.org/protobuf v1.36.12 // indirect
 	gopkg.in/neurosnap/sentences.v1 v1.0.7 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	modernc.org/libc v1.75.3 // indirect
