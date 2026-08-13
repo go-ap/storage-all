@@ -6,13 +6,13 @@ require (
 	git.sr.ht/~mariusor/lw v0.0.0-20250325163623-1639f3fb0e0d
 	github.com/go-ap/activitypub v0.0.0-20260811143456-e874d5d2264f
 	github.com/go-ap/errors v0.0.0-20260701132509-92e5e4fd6394
-	github.com/go-ap/filters v0.0.0-20260811143713-b24d703996ba
-	github.com/go-ap/storage-badger v0.0.0-20260811144852-5c8ede446cc2
-	github.com/go-ap/storage-boltdb v0.0.0-20260811144908-3cc123deb778
-	github.com/go-ap/storage-conformance-suite v0.0.0-20260811144223-2bd56782e86a
-	github.com/go-ap/storage-fs v0.0.0-20260811144510-0d553e50b891
-	github.com/go-ap/storage-pg v0.0.0-20260811145046-c3aa5fe59887
-	github.com/go-ap/storage-sqlite v0.0.0-20260811144807-a62d8457a814
+	github.com/go-ap/filters v0.0.0-20260813125113-ee4142210c99
+	github.com/go-ap/storage-badger v0.0.0-20260813130305-919ba328341e
+	github.com/go-ap/storage-boltdb v0.0.0-20260813125951-6894b55be867
+	github.com/go-ap/storage-conformance-suite v0.0.0-20260813125432-435033de719e
+	github.com/go-ap/storage-fs v0.0.0-20260813125533-a9a754484dcb
+	github.com/go-ap/storage-pg v0.0.0-20260813130534-dfb1937d1dc9
+	github.com/go-ap/storage-sqlite v0.0.0-20260813125845-e23a86f89f07
 	github.com/jackc/pgx/v5 v5.10.0
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 	github.com/testcontainers/testcontainers-go v0.41.0
@@ -115,12 +115,12 @@ require (
 	go.opentelemetry.io/otel v1.45.0 // indirect
 	go.opentelemetry.io/otel/metric v1.45.0 // indirect
 	go.opentelemetry.io/otel/trace v1.45.0 // indirect
-	golang.org/x/crypto v0.54.0 // indirect
+	golang.org/x/crypto v0.55.0 // indirect
 	golang.org/x/mod v0.38.0 // indirect
 	golang.org/x/sync v0.22.0 // indirect
 	golang.org/x/sys v0.47.0 // indirect
 	golang.org/x/term v0.45.0 // indirect
-	golang.org/x/text v0.40.0 // indirect
+	golang.org/x/text v0.41.0 // indirect
 	golang.org/x/tools v0.48.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20260330182312-d5a96adf58d8 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20260311181403-84a4fc48630c // indirect
