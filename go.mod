@@ -12,7 +12,7 @@ require (
 	github.com/go-ap/storage-conformance-suite v0.0.0-20260820094857-97de5c32ce3e
 	github.com/go-ap/storage-fs v0.0.0-20260820095514-95b09ce756a2
 	github.com/go-ap/storage-pg v0.0.0-20260820102625-f55a37e7b178
-	github.com/go-ap/storage-sqlite v0.0.0-20260820095726-f1799f2e0db9
+	github.com/go-ap/storage-sqlite v0.0.0-20260820134427-69437985537b
 	github.com/jackc/pgx/v5 v5.10.0
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 	github.com/testcontainers/testcontainers-go v0.41.0

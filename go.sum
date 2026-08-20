@@ -102,8 +102,8 @@ github.com/go-ap/storage-fs v0.0.0-20260820095514-95b09ce756a2 h1:6pijhMTpjFr6nk
 github.com/go-ap/storage-fs v0.0.0-20260820095514-95b09ce756a2/go.mod h1:XtHwDEwQZH1fwBND4Pzy1SOoTLpx7DGwN+EgRnaD+Sw=
 github.com/go-ap/storage-pg v0.0.0-20260820102625-f55a37e7b178 h1:zrXXxIXJBmjkntodMQR2VoWfFUWumKGJb9/Tn7IavO8=
 github.com/go-ap/storage-pg v0.0.0-20260820102625-f55a37e7b178/go.mod h1:gy5N9SEIJCxfi+ioIhVcVhTOdwa8vNqBka20VVoJgp0=
-github.com/go-ap/storage-sqlite v0.0.0-20260820095726-f1799f2e0db9 h1:puLmfDkvTQ7+mXeE9n2ox6bIo17HDAO1D9CzEcw1REU=
-github.com/go-ap/storage-sqlite v0.0.0-20260820095726-f1799f2e0db9/go.mod h1:wOzIUhgGCKoRzXepIdpv0nabw2+y1t5dl7ff7zyfyvk=
+github.com/go-ap/storage-sqlite v0.0.0-20260820134427-69437985537b h1:8osmFqgRTNsZVcOQvSFJ/TQLDeHB35d3evEPacHW7A4=
+github.com/go-ap/storage-sqlite v0.0.0-20260820134427-69437985537b/go.mod h1:wOzIUhgGCKoRzXepIdpv0nabw2+y1t5dl7ff7zyfyvk=
 github.com/go-chi/chi/v5 v5.3.2 h1:5YQkICvTCSZ25hoRsyJazN0scjzKGiu4VAUc7H1o1nY=
 github.com/go-chi/chi/v5 v5.3.2/go.mod h1:R+tYY2hNuVUUjxoPtqUdgBqevM9s9njzkTLutVsOCto=
 github.com/go-logr/logr v1.2.2/go.mod h1:jdQByPbusPIv2/zmleS9BjJVeZ6kBagPoEUsqbVz/1A=
