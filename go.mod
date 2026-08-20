@@ -7,12 +7,12 @@ require (
 	github.com/go-ap/activitypub v0.0.0-20260819152015-c3df165dcded
 	github.com/go-ap/errors v0.0.0-20260701132509-92e5e4fd6394
 	github.com/go-ap/filters v0.0.0-20260819154911-65176da3bd4a
-	github.com/go-ap/storage-badger v0.0.0-20260820092427-c71002a36f69
-	github.com/go-ap/storage-boltdb v0.0.0-20260819155458-deef5a08eb02
-	github.com/go-ap/storage-conformance-suite v0.0.0-20260819155052-701196ed2d41
-	github.com/go-ap/storage-fs v0.0.0-20260819155342-e0efd0166b68
-	github.com/go-ap/storage-pg v0.0.0-20260819155912-7d36afe1adb6
-	github.com/go-ap/storage-sqlite v0.0.0-20260819155438-50faac5f7720
+	github.com/go-ap/storage-badger v0.0.0-20260820100213-8a2d572b1843
+	github.com/go-ap/storage-boltdb v0.0.0-20260820095804-1e83ad8b00f1
+	github.com/go-ap/storage-conformance-suite v0.0.0-20260820094857-97de5c32ce3e
+	github.com/go-ap/storage-fs v0.0.0-20260820095514-95b09ce756a2
+	github.com/go-ap/storage-pg v0.0.0-20260820102625-f55a37e7b178
+	github.com/go-ap/storage-sqlite v0.0.0-20260820095726-f1799f2e0db9
 	github.com/jackc/pgx/v5 v5.10.0
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 	github.com/testcontainers/testcontainers-go v0.41.0
@@ -54,7 +54,7 @@ require (
 	github.com/felixge/httpsnoop v1.0.4 // indirect
 	github.com/go-ap/cache v0.0.0-20260819154747-7d864fe72648 // indirect
 	github.com/go-ap/jsonld v0.0.0-20260607140920-737b40e0ca38 // indirect
-	github.com/go-chi/chi/v5 v5.3.1 // indirect
+	github.com/go-chi/chi/v5 v5.3.2 // indirect
 	github.com/go-logr/logr v1.4.4 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
