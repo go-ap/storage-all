@@ -7,7 +7,7 @@ require (
 	github.com/go-ap/activitypub v0.0.0-20260819152015-c3df165dcded
 	github.com/go-ap/errors v0.0.0-20260701132509-92e5e4fd6394
 	github.com/go-ap/filters v0.0.0-20260819154911-65176da3bd4a
-	github.com/go-ap/storage-badger v0.0.0-20260819155640-a863748c359d
+	github.com/go-ap/storage-badger v0.0.0-20260820092427-c71002a36f69
 	github.com/go-ap/storage-boltdb v0.0.0-20260819155458-deef5a08eb02
 	github.com/go-ap/storage-conformance-suite v0.0.0-20260819155052-701196ed2d41
 	github.com/go-ap/storage-fs v0.0.0-20260819155342-e0efd0166b68
@@ -129,7 +129,7 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	modernc.org/libc v1.75.3 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
-	modernc.org/memory v1.12.0 // indirect
+	modernc.org/memory v1.12.1 // indirect
 	modernc.org/sqlite v1.57.0 // indirect
 	quamina.net/go/quamina/v2 v2.0.2 // indirect
 )
