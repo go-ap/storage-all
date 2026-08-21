@@ -12,7 +12,7 @@ require (
 	github.com/go-ap/storage-conformance-suite v0.0.0-20260820094857-97de5c32ce3e
 	github.com/go-ap/storage-fs v0.0.0-20260820095514-95b09ce756a2
 	github.com/go-ap/storage-pg v0.0.0-20260820102625-f55a37e7b178
-	github.com/go-ap/storage-sqlite v0.0.0-20260820134427-69437985537b
+	github.com/go-ap/storage-sqlite v0.0.0-20260821132105-2b7b1e104e76
 	github.com/jackc/pgx/v5 v5.10.0
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 	github.com/testcontainers/testcontainers-go v0.41.0
@@ -127,7 +127,7 @@ require (
 	google.golang.org/protobuf v1.36.12 // indirect
 	gopkg.in/neurosnap/sentences.v1 v1.0.7 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	modernc.org/libc v1.75.3 // indirect
+	modernc.org/libc v1.75.4 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.12.1 // indirect
 	modernc.org/sqlite v1.57.0 // indirect
