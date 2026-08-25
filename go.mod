@@ -6,11 +6,11 @@ require (
 	git.sr.ht/~mariusor/lw v0.0.0-20260818081520-a466820a662e
 	github.com/go-ap/activitypub v0.0.0-20260824082814-78f0de545fcf
 	github.com/go-ap/errors v0.0.0-20260701132509-92e5e4fd6394
-	github.com/go-ap/filters v0.0.0-20260824082944-efaa36126211
+	github.com/go-ap/filters v0.0.0-20260825132931-a2c3b1f76a66
 	github.com/go-ap/storage-badger v0.0.0-20260824083927-0d12e9183b8e
 	github.com/go-ap/storage-boltdb v0.0.0-20260824083822-2706effcfba1
-	github.com/go-ap/storage-conformance-suite v0.0.0-20260824083351-1b8cb6447fbf
-	github.com/go-ap/storage-fs v0.0.0-20260824083452-fec4128d945b
+	github.com/go-ap/storage-conformance-suite v0.0.0-20260825133516-9af298ce2c46
+	github.com/go-ap/storage-fs v0.0.0-20260825133704-8ce281ee9ed4
 	github.com/go-ap/storage-pg v0.0.0-20260824084036-2164e6e4d850
 	github.com/go-ap/storage-sqlite v0.0.0-20260824083710-68c9d4f1c5ac
 	github.com/jackc/pgx/v5 v5.10.0
@@ -127,7 +127,7 @@ require (
 	google.golang.org/protobuf v1.36.12 // indirect
 	gopkg.in/neurosnap/sentences.v1 v1.0.7 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	modernc.org/libc v1.75.4 // indirect
+	modernc.org/libc v1.75.5 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.12.1 // indirect
 	modernc.org/sqlite v1.57.0 // indirect
