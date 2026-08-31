@@ -99,8 +99,8 @@ github.com/go-ap/storage-conformance-suite v0.0.0-20260831090222-2c28ad1825e4 h1
 github.com/go-ap/storage-conformance-suite v0.0.0-20260831090222-2c28ad1825e4/go.mod h1:pd4AL7K9kcWsEUfCYzQ/wCVG8UVJrz32GB6Ax13VqE0=
 github.com/go-ap/storage-fs v0.0.0-20260831090658-aad264c76cc5 h1:qODHrMyu95lZS57rGU7FNfUE22Gxnmmr92TA3RTtxCY=
 github.com/go-ap/storage-fs v0.0.0-20260831090658-aad264c76cc5/go.mod h1:hqxunceNY88lt4xcVQxyy5PGxsTyVxjREwkpvmWJ7ao=
-github.com/go-ap/storage-pg v0.0.0-20260824084036-2164e6e4d850 h1:yugUxVIddIBf7L9714B48LHF8JJJIa7LnfrpBTJjP78=
-github.com/go-ap/storage-pg v0.0.0-20260824084036-2164e6e4d850/go.mod h1:njnUHMdDgcestUVd44BGVFzRukFtSIsZD0JIuHQ0F/g=
+github.com/go-ap/storage-pg v0.0.0-20260831094604-c28707ee174b h1:/wRk2XJ0ZXmD1pH9z3IAmEMMDRTDTiV2PkZYunHqflY=
+github.com/go-ap/storage-pg v0.0.0-20260831094604-c28707ee174b/go.mod h1:SxGM3gieDMqT1G4pkasnjnCqRmnfxXfTVr7a5kEoS5g=
 github.com/go-ap/storage-sqlite v0.0.0-20260831090856-5199d168c7bf h1:TwtsMZZXUzv0UqAddwhCF/VFDb0e/a5y85e+dCUC/To=
 github.com/go-ap/storage-sqlite v0.0.0-20260831090856-5199d168c7bf/go.mod h1:BTw4baWOYTPSo0PKD/VknVRb9KmEGrPX2QaxiUBUt24=
 github.com/go-chi/chi/v5 v5.3.2 h1:5YQkICvTCSZ25hoRsyJazN0scjzKGiu4VAUc7H1o1nY=
