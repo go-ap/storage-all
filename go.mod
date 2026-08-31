@@ -10,7 +10,7 @@ require (
 	github.com/go-ap/storage-badger v0.0.0-20260831093236-243debc56091
 	github.com/go-ap/storage-boltdb v0.0.0-20260831090927-30cde5d71af5
 	github.com/go-ap/storage-conformance-suite v0.0.0-20260831090222-2c28ad1825e4
-	github.com/go-ap/storage-fs v0.0.0-20260831090658-aad264c76cc5
+	github.com/go-ap/storage-fs v0.0.0-20260831122233-1f7246f6102f
 	github.com/go-ap/storage-pg v0.0.0-20260831094604-c28707ee174b
 	github.com/go-ap/storage-sqlite v0.0.0-20260831090856-5199d168c7bf
 	github.com/jackc/pgx/v5 v5.10.0
