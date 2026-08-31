@@ -18,10 +18,29 @@ func setBenchId(it vocab.Item) {
 	u, _ := gen.RootID.URL()
 	u.Path = ""
 	base := u.String()
-	_ = vocab.OnObject(it, setId(vocab.IRI(base)))
+	if vocab.IsLink(it) {
+		_ = vocab.OnLink(it, setLinkId(vocab.IRI(base)))
+	} else {
+		_ = vocab.OnObject(it, setObjectId(vocab.IRI(base)))
+	}
 }
 
-func setId(base vocab.IRI) func(ob *vocab.Object) error {
+func setLinkId(base vocab.IRI) func(ob *vocab.Link) error {
+	idMap := sync.Map{}
+	return func(ob *vocab.Link) error {
+		typ := ob.Type
+		id := 1
+		if latestId, ok := idMap.Load(typ); ok {
+			id = latestId.(int) + 1
+		}
+
+		ob.ID = base.AddPath(strings.ToLower(typeAsString(typ))).AddPath(strconv.Itoa(id))
+		idMap.Store(typ, id)
+		return nil
+	}
+}
+
+func setObjectId(base vocab.IRI) func(ob *vocab.Object) error {
 	idMap := sync.Map{}
 	return func(ob *vocab.Object) error {
 		typ := ob.Type
