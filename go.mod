@@ -3,17 +3,17 @@ module git.sr.ht/~mariusor/storage-all
 go 1.26.0
 
 require (
-	git.sr.ht/~mariusor/lw v0.0.0-20260818081520-a466820a662e
+	git.sr.ht/~mariusor/lw v0.0.0-20260908112334-5e5fb7ebd609
 	github.com/go-ap/activitypub v0.0.0-20260831124014-72a94f5a8a10
 	github.com/go-ap/errors v0.0.0-20260701132509-92e5e4fd6394
 	github.com/go-ap/filters v0.0.0-20260831130242-f116eb702ce2
-	github.com/go-ap/storage-badger v0.0.0-20260831134646-1acd44095edf
-	github.com/go-ap/storage-boltdb v0.0.0-20260831134539-6e2411d66e3e
+	github.com/go-ap/storage-badger v0.0.0-20260908163949-29e7358d9f96
+	github.com/go-ap/storage-boltdb v0.0.0-20260908163850-6a0915c5d57d
 	github.com/go-ap/storage-conformance-suite v0.0.0-20260831131648-7ba04be0be0a
-	github.com/go-ap/storage-fs v0.0.0-20260831134307-ee78f0622342
-	github.com/go-ap/storage-pg v0.0.0-20260831134927-1fe7d39ba1d4
-	github.com/go-ap/storage-sqlite v0.0.0-20260903180937-df83ce1e4d8f
-	github.com/jackc/pgx/v5 v5.10.0
+	github.com/go-ap/storage-fs v0.0.0-20260908164026-c061d52d1e6e
+	github.com/go-ap/storage-pg v0.0.0-20260908164328-3e1323831ca8
+	github.com/go-ap/storage-sqlite v0.0.0-20260908164140-b738887ba152
+	github.com/jackc/pgx/v5 v5.11.0
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 	github.com/testcontainers/testcontainers-go v0.41.0
 	github.com/testcontainers/testcontainers-go/modules/postgres v0.41.0
@@ -22,7 +22,6 @@ require (
 require (
 	dario.cat/mergo v1.0.2 // indirect
 	git.sr.ht/~mariusor/go-xsd-duration v0.0.0-20220703122237-02e73435a078 // indirect
-	git.sr.ht/~mariusor/mask v0.0.0-20250114195353-98705a6977b7 // indirect
 	github.com/Azure/go-ansiterm v0.0.0-20250102033503-faa5f7b0171c // indirect
 	github.com/Microsoft/go-winio v0.6.2 // indirect
 	github.com/RoaringBitmap/roaring v1.9.4 // indirect
@@ -53,7 +52,6 @@ require (
 	github.com/felixge/httpsnoop v1.0.4 // indirect
 	github.com/go-ap/cache v0.0.0-20260831124102-1153c19aa428 // indirect
 	github.com/go-ap/jsonld v0.0.0-20260607140920-737b40e0ca38 // indirect
-	github.com/go-chi/chi/v5 v5.3.2 // indirect
 	github.com/go-logr/logr v1.4.4 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
@@ -71,10 +69,9 @@ require (
 	github.com/lucasb-eyer/go-colorful v1.4.1 // indirect
 	github.com/lufia/plan9stats v0.0.0-20211012122336-39d0f177ccd0 // indirect
 	github.com/magiconair/properties v1.8.10 // indirect
-	github.com/mattn/go-colorable v0.1.15 // indirect
 	github.com/mattn/go-isatty v0.0.24 // indirect
 	github.com/mattn/go-runewidth v0.0.27 // indirect
-	github.com/mattn/go-sqlite3 v1.14.50 // indirect
+	github.com/mattn/go-sqlite3 v1.14.52 // indirect
 	github.com/mattn/goveralls v0.0.12 // indirect
 	github.com/mfridman/tparse v0.18.0 // indirect
 	github.com/moby/docker-image-spec v1.3.1 // indirect
@@ -95,8 +92,7 @@ require (
 	github.com/power-devops/perfstat v0.0.0-20240221224432-82ca36839d55 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
-	github.com/rs/xid v1.6.0 // indirect
-	github.com/rs/zerolog v1.35.1 // indirect
+	github.com/samber/slog-http v1.12.1 // indirect
 	github.com/shirou/gopsutil/v4 v4.26.2 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
@@ -116,8 +112,8 @@ require (
 	go.yaml.in/yaml/v3 v3.0.5 // indirect
 	golang.org/x/crypto v0.56.0 // indirect
 	golang.org/x/mod v0.38.0 // indirect
-	golang.org/x/sync v0.22.0 // indirect
-	golang.org/x/sys v0.47.0 // indirect
+	golang.org/x/sync v0.23.0 // indirect
+	golang.org/x/sys v0.48.0 // indirect
 	golang.org/x/term v0.45.0 // indirect
 	golang.org/x/text v0.41.0 // indirect
 	golang.org/x/tools v0.48.0 // indirect
