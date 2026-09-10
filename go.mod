@@ -3,16 +3,16 @@ module git.sr.ht/~mariusor/storage-all
 go 1.26.0
 
 require (
-	git.sr.ht/~mariusor/lw v0.0.0-20260908112334-5e5fb7ebd609
-	github.com/go-ap/activitypub v0.0.0-20260831124014-72a94f5a8a10
+	git.sr.ht/~mariusor/lw v0.0.0-20260910124117-d80376e1433e
+	github.com/go-ap/activitypub v0.0.0-20260909093825-f72cfa142bd0
 	github.com/go-ap/errors v0.0.0-20260701132509-92e5e4fd6394
-	github.com/go-ap/filters v0.0.0-20260831130242-f116eb702ce2
-	github.com/go-ap/storage-badger v0.0.0-20260908163949-29e7358d9f96
-	github.com/go-ap/storage-boltdb v0.0.0-20260908163850-6a0915c5d57d
-	github.com/go-ap/storage-conformance-suite v0.0.0-20260831131648-7ba04be0be0a
-	github.com/go-ap/storage-fs v0.0.0-20260908164026-c061d52d1e6e
-	github.com/go-ap/storage-pg v0.0.0-20260908164328-3e1323831ca8
-	github.com/go-ap/storage-sqlite v0.0.0-20260908164140-b738887ba152
+	github.com/go-ap/filters v0.0.0-20260909101441-177fa69736fd
+	github.com/go-ap/storage-badger v0.0.0-20260909103132-9ea64132c9d8
+	github.com/go-ap/storage-boltdb v0.0.0-20260909103103-fa2530caa4c5
+	github.com/go-ap/storage-conformance-suite v0.0.0-20260909102044-b15a72f841a0
+	github.com/go-ap/storage-fs v0.0.0-20260910130847-790c733d2add
+	github.com/go-ap/storage-pg v0.0.0-20260909104439-c0ed660d7b0c
+	github.com/go-ap/storage-sqlite v0.0.0-20260909102423-647511963a41
 	github.com/jackc/pgx/v5 v5.11.0
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 	github.com/testcontainers/testcontainers-go v0.41.0
@@ -50,7 +50,7 @@ require (
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/ebitengine/purego v0.10.0 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
-	github.com/go-ap/cache v0.0.0-20260831124102-1153c19aa428 // indirect
+	github.com/go-ap/cache v0.0.0-20260909101407-b27994bd51dd // indirect
 	github.com/go-ap/jsonld v0.0.0-20260607140920-737b40e0ca38 // indirect
 	github.com/go-logr/logr v1.4.4 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
@@ -110,13 +110,13 @@ require (
 	go.opentelemetry.io/otel/metric v1.46.0 // indirect
 	go.opentelemetry.io/otel/trace v1.46.0 // indirect
 	go.yaml.in/yaml/v3 v3.0.5 // indirect
-	golang.org/x/crypto v0.56.0 // indirect
-	golang.org/x/mod v0.38.0 // indirect
+	golang.org/x/crypto v0.57.0 // indirect
+	golang.org/x/mod v0.41.0 // indirect
 	golang.org/x/sync v0.23.0 // indirect
 	golang.org/x/sys v0.48.0 // indirect
-	golang.org/x/term v0.45.0 // indirect
-	golang.org/x/text v0.41.0 // indirect
-	golang.org/x/tools v0.48.0 // indirect
+	golang.org/x/term v0.46.0 // indirect
+	golang.org/x/text v0.42.0 // indirect
+	golang.org/x/tools v0.49.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20260330182312-d5a96adf58d8 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20260311181403-84a4fc48630c // indirect
 	google.golang.org/protobuf v1.36.12 // indirect
