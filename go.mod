@@ -4,15 +4,15 @@ go 1.26.0
 
 require (
 	git.sr.ht/~mariusor/lw v0.0.0-20260910124117-d80376e1433e
-	github.com/go-ap/activitypub v0.0.0-20260913133145-416f1c0ed9a1
+	github.com/go-ap/activitypub v0.0.0-20260914124931-8ec3d41415b0
 	github.com/go-ap/errors v0.0.0-20260701132509-92e5e4fd6394
-	github.com/go-ap/filters v0.0.0-20260913133245-971d96337e18
-	github.com/go-ap/storage-badger v0.0.0-20260913134639-af5193d60f5d
-	github.com/go-ap/storage-boltdb v0.0.0-20260913134610-5912bea359c7
-	github.com/go-ap/storage-conformance-suite v0.0.0-20260913133431-0e84f49e4365
-	github.com/go-ap/storage-fs v0.0.0-20260913134407-aa5a120bf348
-	github.com/go-ap/storage-pg v0.0.0-20260913134806-8a6fb1d56edc
-	github.com/go-ap/storage-sqlite v0.0.0-20260913134549-4d0992f7c2a2
+	github.com/go-ap/filters v0.0.0-20260914130005-a94e6e63f9e9
+	github.com/go-ap/storage-badger v0.0.0-20260914131827-5152e004053d
+	github.com/go-ap/storage-boltdb v0.0.0-20260914131806-4edc47e839ad
+	github.com/go-ap/storage-conformance-suite v0.0.0-20260914131447-4b414c46eacd
+	github.com/go-ap/storage-fs v0.0.0-20260914131545-582635a8d82d
+	github.com/go-ap/storage-pg v0.0.0-20260914132833-99b620b018e6
+	github.com/go-ap/storage-sqlite v0.0.0-20260914131713-778940386a6e
 	github.com/jackc/pgx/v5 v5.11.0
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 	github.com/testcontainers/testcontainers-go v0.41.0
@@ -50,7 +50,7 @@ require (
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/ebitengine/purego v0.10.0 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
-	github.com/go-ap/cache v0.0.0-20260913133218-7328819bb3f8 // indirect
+	github.com/go-ap/cache v0.0.0-20260914125539-0dd052864b13 // indirect
 	github.com/go-ap/jsonld v0.0.0-20260607140920-737b40e0ca38 // indirect
 	github.com/go-logr/logr v1.4.4 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
@@ -125,7 +125,7 @@ require (
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.12.1 // indirect
 	modernc.org/sqlite v1.58.0 // indirect
-	quamina.net/go/quamina/v2 v2.0.2 // indirect
+	quamina.net/go/quamina/v2 v2.0.3 // indirect
 )
 
 replace github.com/mattn/go-sqlite3 => github.com/mattn/go-sqlite3 v1.14.32
