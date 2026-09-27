@@ -115,7 +115,7 @@ func getBadgerConfig(opt options) (badger.Config, error) {
 	}
 	return badger.Config{
 		Path:  path,
-		LogFn: l.Debugf,
+		LogFn: l.Tracef,
 		ErrFn: l.Warnf,
 	}, nil
 }
@@ -144,7 +144,7 @@ func getBoltConfig(opt options) (boltdb.Config, error) {
 	}
 	return boltdb.Config{
 		Path:  path,
-		LogFn: l.Debugf,
+		LogFn: l.Tracef,
 		ErrFn: l.Warnf,
 	}, nil
 }
@@ -201,7 +201,7 @@ func getPostgresConfig(opt options) (pg.Config, error) {
 	if err != nil {
 		return pg.Config{}, err
 	}
-	conf.LogFn = l.Debugf
+	conf.LogFn = l.Tracef
 	conf.ErrFn = l.Warnf
 	return conf, nil
 }
@@ -231,7 +231,7 @@ func getSqliteConfig(opt options) (sqlite.Config, error) {
 	return sqlite.Config{
 		Path:        path,
 		CacheEnable: opt.StorageCache,
-		LogFn:       l.Debugf,
+		LogFn:       l.Tracef,
 		ErrFn:       l.Warnf,
 	}, nil
 }
