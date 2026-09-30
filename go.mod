@@ -7,7 +7,7 @@ require (
 	github.com/go-ap/activitypub v0.0.0-20260924153054-b014c6959a68
 	github.com/go-ap/errors v0.0.0-20260701132509-92e5e4fd6394
 	github.com/go-ap/filters v0.0.0-20260925153747-c771950b56d6
-	github.com/go-ap/storage-badger v0.0.0-20260927101156-6766fc8306e5
+	github.com/go-ap/storage-badger v0.0.0-20261001104241-19945fc5b1ef
 	github.com/go-ap/storage-boltdb v0.0.0-20260927101106-9d0b10b232e7
 	github.com/go-ap/storage-conformance-suite v0.0.0-20260925154035-58b26383e917
 	github.com/go-ap/storage-fs v0.0.0-20260927100909-5dbfaa53ed05
@@ -84,7 +84,7 @@ require (
 	github.com/moby/term v0.5.2 // indirect
 	github.com/mschoch/smat v0.2.0 // indirect
 	github.com/muesli/termenv v0.16.0 // indirect
-	github.com/ncruces/go-strftime v1.0.0 // indirect
+	github.com/ncruces/go-strftime v1.1.0 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.1.1 // indirect
 	github.com/pborman/uuid v1.2.1 // indirect
@@ -121,7 +121,7 @@ require (
 	modernc.org/libc v1.77.1 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.12.1 // indirect
-	modernc.org/sqlite v1.59.0 // indirect
+	modernc.org/sqlite v1.60.1 // indirect
 	quamina.net/go/quamina/v2 v2.0.3 // indirect
 )
 
