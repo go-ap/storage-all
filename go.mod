@@ -4,15 +4,15 @@ go 1.26.0
 
 require (
 	git.sr.ht/~mariusor/lw v0.0.0-20260917101519-2e0b081e156c
-	github.com/go-ap/activitypub v0.0.0-20261001105042-f64c8efd6ae0
+	github.com/go-ap/activitypub v0.0.0-20261005161154-ddfb80ed6f31
 	github.com/go-ap/errors v0.0.0-20260701132509-92e5e4fd6394
-	github.com/go-ap/filters v0.0.0-20261001105525-87e9dfb9abd8
-	github.com/go-ap/storage-badger v0.0.0-20261001110403-404d3f1c0bc8
-	github.com/go-ap/storage-boltdb v0.0.0-20261001105918-6b895c3fe8c0
-	github.com/go-ap/storage-conformance-suite v0.0.0-20261001105704-ccf4fec95b57
-	github.com/go-ap/storage-fs v0.0.0-20261001105814-edcb91bc377f
-	github.com/go-ap/storage-pg v0.0.0-20261001110611-03a3054a20fe
-	github.com/go-ap/storage-sqlite v0.0.0-20260925154441-05dddda902d9
+	github.com/go-ap/filters v0.0.0-20261005164204-2bcbaf0c6cac
+	github.com/go-ap/storage-badger v0.0.0-20261005170610-bcfeed6b17b0
+	github.com/go-ap/storage-boltdb v0.0.0-20261005170200-179d482ead04
+	github.com/go-ap/storage-conformance-suite v0.0.0-20261005164843-ce03496950d5
+	github.com/go-ap/storage-fs v0.0.0-20261005170038-8362a01873be
+	github.com/go-ap/storage-pg v0.0.0-20261005170744-8b2e6b6fac29
+	github.com/go-ap/storage-sqlite v0.0.0-20261005170136-ced77884c581
 	github.com/jackc/pgx/v5 v5.11.0
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 	github.com/testcontainers/testcontainers-go v0.44.0
@@ -26,7 +26,7 @@ require (
 	github.com/Microsoft/go-winio v0.6.2 // indirect
 	github.com/RoaringBitmap/roaring v1.9.4 // indirect
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
-	github.com/bits-and-blooms/bitset v1.25.0 // indirect
+	github.com/bits-and-blooms/bitset v1.26.0 // indirect
 	github.com/cenkalti/backoff/v4 v4.3.0 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/charmbracelet/colorprofile v0.4.3 // indirect
@@ -49,7 +49,7 @@ require (
 	github.com/dustin/go-humanize v1.1.0 // indirect
 	github.com/ebitengine/purego v0.11.0 // indirect
 	github.com/felixge/httpsnoop v1.1.0 // indirect
-	github.com/go-ap/cache v0.0.0-20261001105456-5fb573403035 // indirect
+	github.com/go-ap/cache v0.0.0-20261005161647-8b26e6aee918 // indirect
 	github.com/go-ap/jsonld v0.0.0-20260607140920-737b40e0ca38 // indirect
 	github.com/go-logr/logr v1.4.4 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
@@ -61,7 +61,7 @@ require (
 	github.com/hashicorp/golang-lru v1.0.2 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20240606120523-5a60cdf6a761 // indirect
-	github.com/jackc/puddle/v2 v2.2.2 // indirect
+	github.com/jackc/puddle/v2 v2.2.3 // indirect
 	github.com/jdkato/prose v1.2.1 // indirect
 	github.com/klauspost/compress v1.20.1 // indirect
 	github.com/leporo/sqlf v1.4.0 // indirect
@@ -105,9 +105,10 @@ require (
 	go.etcd.io/bbolt v1.5.0 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.71.0 // indirect
-	go.opentelemetry.io/otel v1.46.0 // indirect
-	go.opentelemetry.io/otel/metric v1.46.0 // indirect
-	go.opentelemetry.io/otel/trace v1.46.0 // indirect
+	go.opentelemetry.io/otel v1.47.0 // indirect
+	go.opentelemetry.io/otel/log v1.47.0 // indirect
+	go.opentelemetry.io/otel/metric v1.47.0 // indirect
+	go.opentelemetry.io/otel/trace v1.47.0 // indirect
 	go.yaml.in/yaml/v3 v3.0.5 // indirect
 	golang.org/x/crypto v0.57.0 // indirect
 	golang.org/x/mod v0.41.0 // indirect
