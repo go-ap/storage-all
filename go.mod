@@ -4,15 +4,15 @@ go 1.26.0
 
 require (
 	git.sr.ht/~mariusor/lw v0.0.0-20260917101519-2e0b081e156c
-	github.com/go-ap/activitypub v0.0.0-20261015123346-723e63a90dc1
+	github.com/go-ap/activitypub v0.0.0-20261018144412-73e07f958d52
 	github.com/go-ap/errors v0.0.0-20260701132509-92e5e4fd6394
-	github.com/go-ap/filters v0.0.0-20261015123504-98ece433d654
-	github.com/go-ap/storage-badger v0.0.0-20261015125250-e0d45c2e714d
-	github.com/go-ap/storage-boltdb v0.0.0-20261015125417-1453c9522340
-	github.com/go-ap/storage-conformance-suite v0.0.0-20261015124954-d636987393c7
-	github.com/go-ap/storage-fs v0.0.0-20261018131000-010b9b43bbbb
-	github.com/go-ap/storage-pg v0.0.0-20261015125721-5a2bec1ef110
-	github.com/go-ap/storage-sqlite v0.0.0-20261015125517-f2c179379489
+	github.com/go-ap/filters v0.0.0-20261018144629-c36aa22d954e
+	github.com/go-ap/storage-badger v0.0.0-20261018150238-1916d744c7f0
+	github.com/go-ap/storage-boltdb v0.0.0-20261018150210-06abcff89ca7
+	github.com/go-ap/storage-conformance-suite v0.0.0-20261018145546-8cb9877f5343
+	github.com/go-ap/storage-fs v0.0.0-20261018150100-68611d5efa4c
+	github.com/go-ap/storage-pg v0.0.0-20261018150409-0a107814bfdc
+	github.com/go-ap/storage-sqlite v0.0.0-20261018150152-90aee0178dca
 	github.com/jackc/pgx/v5 v5.11.0
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 	github.com/testcontainers/testcontainers-go v0.44.0
@@ -49,7 +49,7 @@ require (
 	github.com/dustin/go-humanize v1.1.0 // indirect
 	github.com/ebitengine/purego v0.11.0 // indirect
 	github.com/felixge/httpsnoop v1.1.0 // indirect
-	github.com/go-ap/cache v0.0.0-20261015123442-b195083c865a // indirect
+	github.com/go-ap/cache v0.0.0-20261018144523-65b6404a30be // indirect
 	github.com/go-ap/jsonld v0.0.0-20260607140920-737b40e0ca38 // indirect
 	github.com/go-logr/logr v1.4.4 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
