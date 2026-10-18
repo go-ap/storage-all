@@ -10,7 +10,7 @@ require (
 	github.com/go-ap/storage-badger v0.0.0-20261015125250-e0d45c2e714d
 	github.com/go-ap/storage-boltdb v0.0.0-20261015125417-1453c9522340
 	github.com/go-ap/storage-conformance-suite v0.0.0-20261015124954-d636987393c7
-	github.com/go-ap/storage-fs v0.0.0-20261015125058-35b9ac1943a3
+	github.com/go-ap/storage-fs v0.0.0-20261018131000-010b9b43bbbb
 	github.com/go-ap/storage-pg v0.0.0-20261015125721-5a2bec1ef110
 	github.com/go-ap/storage-sqlite v0.0.0-20261015125517-f2c179379489
 	github.com/jackc/pgx/v5 v5.11.0
@@ -111,15 +111,15 @@ require (
 	go.opentelemetry.io/otel/trace v1.47.0 // indirect
 	go.yaml.in/yaml/v3 v3.0.5 // indirect
 	golang.org/x/crypto v0.58.0 // indirect
-	golang.org/x/mod v0.41.0 // indirect
+	golang.org/x/mod v0.42.0 // indirect
 	golang.org/x/sync v0.24.0 // indirect
 	golang.org/x/sys v0.49.0 // indirect
 	golang.org/x/term v0.47.0 // indirect
 	golang.org/x/text v0.43.0 // indirect
-	golang.org/x/tools v0.51.0 // indirect
+	golang.org/x/tools v0.52.0 // indirect
 	google.golang.org/protobuf v1.36.12 // indirect
 	gopkg.in/neurosnap/sentences.v1 v1.0.7 // indirect
-	modernc.org/libc v1.78.0 // indirect
+	modernc.org/libc v1.79.0 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.12.1 // indirect
 	modernc.org/sqlite v1.60.1 // indirect
