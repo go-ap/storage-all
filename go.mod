@@ -4,15 +4,15 @@ go 1.26.0
 
 require (
 	git.sr.ht/~mariusor/lw v0.0.0-20260917101519-2e0b081e156c
-	github.com/go-ap/activitypub v0.0.0-20261101142956-a76d71dd72b0
-	github.com/go-ap/errors v0.0.0-20260701132509-92e5e4fd6394
-	github.com/go-ap/filters v0.0.0-20261101144638-4754d87b7869
-	github.com/go-ap/storage-badger v0.0.0-20261101150224-8947b5db8442
-	github.com/go-ap/storage-boltdb v0.0.0-20261101150043-cee7449555a4
+	github.com/go-ap/activitypub v0.0.0-20261107170531-73ce953a88f6
+	github.com/go-ap/errors v0.0.0-20261107170344-5391268d9d2c
+	github.com/go-ap/filters v0.0.0-20261107170746-b873ae37c70e
+	github.com/go-ap/storage-badger v0.0.0-20261107171610-46434a1b6981
+	github.com/go-ap/storage-boltdb v0.0.0-20261107171526-ee91fb7b4a7a
 	github.com/go-ap/storage-conformance-suite v0.0.0-20261101145434-f950c6192791
-	github.com/go-ap/storage-fs v0.0.0-20261101145619-9e2891f0a788
-	github.com/go-ap/storage-pg v0.0.0-20261101150538-60932ae4fe80
-	github.com/go-ap/storage-sqlite v0.0.0-20261101145835-b3fbd423c1ea
+	github.com/go-ap/storage-fs v0.0.0-20261107171315-0fd9cfdab391
+	github.com/go-ap/storage-pg v0.0.0-20261107171837-71ef87b06d12
+	github.com/go-ap/storage-sqlite v0.0.0-20261107171457-bfa6e54fc870
 	github.com/jackc/pgx/v5 v5.12.0
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 	github.com/testcontainers/testcontainers-go v0.44.0
@@ -49,8 +49,8 @@ require (
 	github.com/dustin/go-humanize v1.1.0 // indirect
 	github.com/ebitengine/purego v0.11.2 // indirect
 	github.com/felixge/httpsnoop v1.1.0 // indirect
-	github.com/go-ap/cache v0.0.0-20261101144458-eb7e2f285afb // indirect
-	github.com/go-ap/jsonld v0.0.0-20260607140920-737b40e0ca38 // indirect
+	github.com/go-ap/cache v0.0.0-20261107170624-ec506e890123 // indirect
+	github.com/go-ap/jsonld v0.0.0-20261107170435-a7bb5ba3f894 // indirect
 	github.com/go-logr/logr v1.4.4 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-ole/go-ole v1.3.0 // indirect
@@ -70,7 +70,7 @@ require (
 	github.com/magiconair/properties v1.18.12 // indirect
 	github.com/mattn/go-isatty v0.0.24 // indirect
 	github.com/mattn/go-runewidth v0.0.31 // indirect
-	github.com/mattn/go-sqlite3 v1.14.52 // indirect
+	github.com/mattn/go-sqlite3 v1.14.53 // indirect
 	github.com/mattn/goveralls v0.0.12 // indirect
 	github.com/mfridman/tparse v0.18.0 // indirect
 	github.com/moby/docker-image-spec v1.3.1 // indirect
@@ -119,10 +119,10 @@ require (
 	golang.org/x/tools v0.52.0 // indirect
 	google.golang.org/protobuf v1.36.12 // indirect
 	gopkg.in/neurosnap/sentences.v1 v1.0.7 // indirect
-	modernc.org/libc v1.79.1 // indirect
+	modernc.org/libc v1.80.1 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.12.1 // indirect
-	modernc.org/sqlite v1.61.1 // indirect
+	modernc.org/sqlite v1.62.0 // indirect
 	quamina.net/go/quamina/v2 v2.0.3 // indirect
 )
 

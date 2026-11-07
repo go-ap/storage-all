@@ -7,7 +7,7 @@ sources:
   - https://git.sr.ht/~mariusor/storage-all
 secrets:
 - 231516a2-ca5d-42d0-8da1-b1d300485344
-- 3dcea276-38d6-4a7e-85e5-20cbc903e1ea
+- c523dfd7-44d6-4a1a-9971-5b355d02c567
 environment:
   GO111MODULE: 'on'
   DOCKER_HOST: unix:///run/user/1000/podman/podman.sock
