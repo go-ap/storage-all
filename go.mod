@@ -4,16 +4,16 @@ go 1.26.0
 
 require (
 	git.sr.ht/~mariusor/lw v0.0.0-20260917101519-2e0b081e156c
-	github.com/go-ap/activitypub v0.0.0-20261107170531-73ce953a88f6
+	github.com/go-ap/activitypub v0.0.0-20261114094942-b164c2575fd9
 	github.com/go-ap/errors v0.0.0-20261107170344-5391268d9d2c
-	github.com/go-ap/filters v0.0.0-20261107170746-b873ae37c70e
-	github.com/go-ap/storage-badger v0.0.0-20261107171610-46434a1b6981
-	github.com/go-ap/storage-boltdb v0.0.0-20261107171526-ee91fb7b4a7a
-	github.com/go-ap/storage-conformance-suite v0.0.0-20261101145434-f950c6192791
-	github.com/go-ap/storage-fs v0.0.0-20261107171315-0fd9cfdab391
-	github.com/go-ap/storage-pg v0.0.0-20261107171837-71ef87b06d12
-	github.com/go-ap/storage-sqlite v0.0.0-20261107171457-bfa6e54fc870
-	github.com/jackc/pgx/v5 v5.12.0
+	github.com/go-ap/filters v0.0.0-20261114095223-5acde6d8785c
+	github.com/go-ap/storage-badger v0.0.0-20261115092135-431733921e41
+	github.com/go-ap/storage-boltdb v0.0.0-20261115092011-d804c23cd7de
+	github.com/go-ap/storage-conformance-suite v0.0.0-20261114103239-6393ae1058ed
+	github.com/go-ap/storage-fs v0.0.0-20261115091555-aa3a2bbee45a
+	github.com/go-ap/storage-pg v0.0.0-20261115092436-caad6a36e02c
+	github.com/go-ap/storage-sqlite v0.0.0-20261115091903-298fb6a2b16f
+	github.com/jackc/pgx/v5 v5.13.0
 	github.com/openshift/osin v1.0.2-0.20220317075346-0f4d38c6e53f
 	github.com/testcontainers/testcontainers-go v0.44.0
 	github.com/testcontainers/testcontainers-go/modules/postgres v0.44.0
@@ -49,7 +49,7 @@ require (
 	github.com/dustin/go-humanize v1.1.0 // indirect
 	github.com/ebitengine/purego v0.11.2 // indirect
 	github.com/felixge/httpsnoop v1.1.0 // indirect
-	github.com/go-ap/cache v0.0.0-20261107170624-ec506e890123 // indirect
+	github.com/go-ap/cache v0.0.0-20261114095044-c9c9c8423578 // indirect
 	github.com/go-ap/jsonld v0.0.0-20261107170435-a7bb5ba3f894 // indirect
 	github.com/go-logr/logr v1.4.4 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
@@ -63,7 +63,7 @@ require (
 	github.com/jackc/pgservicefile v0.0.0-20240606120523-5a60cdf6a761 // indirect
 	github.com/jackc/puddle/v2 v2.2.3 // indirect
 	github.com/jdkato/prose v1.2.1 // indirect
-	github.com/klauspost/compress v1.20.3 // indirect
+	github.com/klauspost/compress v1.20.4 // indirect
 	github.com/leporo/sqlf v1.4.0 // indirect
 	github.com/lucasb-eyer/go-colorful v1.4.1 // indirect
 	github.com/lufia/plan9stats v0.0.0-20261101121723-be84dd9509a0 // indirect
@@ -110,16 +110,16 @@ require (
 	go.opentelemetry.io/otel/metric v1.47.0 // indirect
 	go.opentelemetry.io/otel/trace v1.47.0 // indirect
 	go.yaml.in/yaml/v3 v3.0.6 // indirect
-	golang.org/x/crypto v0.58.0 // indirect
+	golang.org/x/crypto v0.59.0 // indirect
 	golang.org/x/mod v0.42.0 // indirect
-	golang.org/x/sync v0.24.0 // indirect
-	golang.org/x/sys v0.49.0 // indirect
-	golang.org/x/term v0.47.0 // indirect
-	golang.org/x/text v0.43.0 // indirect
+	golang.org/x/sync v0.25.0 // indirect
+	golang.org/x/sys v0.50.0 // indirect
+	golang.org/x/term v0.48.0 // indirect
+	golang.org/x/text v0.44.0 // indirect
 	golang.org/x/tools v0.52.0 // indirect
 	google.golang.org/protobuf v1.36.12 // indirect
 	gopkg.in/neurosnap/sentences.v1 v1.0.7 // indirect
-	modernc.org/libc v1.80.1 // indirect
+	modernc.org/libc v1.81.1 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.12.1 // indirect
 	modernc.org/sqlite v1.62.0 // indirect
